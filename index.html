@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="data-build" content="english30-v13">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="江震英语30天">
+  <link rel="manifest" href="source/manifest.json">
+  <link rel="apple-touch-icon" href="source/icon-192.png">
+  <link rel="stylesheet" href="source/styles.css">
+  <link rel="stylesheet" href="source/shadowing.css">
+  <link rel="stylesheet" href="source/typing-dictation.css">
+  <link rel="stylesheet" href="source/vocab-speaking.css">
+  <link rel="stylesheet" href="source/parent-dashboard.css">
+  <link rel="stylesheet" href="source/child-ux.css">
+  <link rel="stylesheet" href="source/tts-controller.css">
+  <title>李江震的30天英语读写默写</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23EF704A'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='white'%3E英%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <div id="app">
+    <!-- ===== 顶部导航 ===== -->
+    <header class="app-header">
+      <button class="nav-btn" id="btn-home" aria-label="返回首页">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </button>
+      <h1 class="app-title" id="page-title">李江震的30天英语读写默写</h1>
+      <button class="nav-btn" id="btn-settings" aria-label="设置">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.488.488 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+      </button>
+    </header>
+
+    <!-- ===== 首页：30天进度 ===== -->
+    <section class="view" id="view-home">
+      <div class="progress-overview">
+        <div class="progress-ring-wrap">
+          <svg class="progress-ring" width="120" height="120" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="52" fill="none" stroke-width="10"/>
+            <circle class="ring-fg" id="progress-ring-fg" cx="60" cy="60" r="52" fill="none" stroke-width="10" stroke-linecap="round"/>
+          </svg>
+          <div class="progress-text">
+            <span class="progress-num" id="progress-num">0</span>
+            <span class="progress-label">/ 30 天</span>
+          </div>
+        </div>
+        <div class="progress-stats">
+          <div class="stat-item"><span class="stat-val" id="stat-words">0</span><span class="stat-label">已学单词</span></div>
+          <div class="stat-item"><span class="stat-val" id="stat-review">0</span><span class="stat-label">待复习</span></div>
+          <div class="stat-item"><span class="stat-val" id="stat-streak">0</span><span class="stat-label">连续天数</span></div>
+        </div>
+      </div>
+
+      <div class="day-grid-section">
+        <h2 class="section-title">学习计划</h2>
+        <div class="day-grid" id="day-grid"></div>
+      </div>
+
+
+      <div class="assessment-section">
+        <h2 class="section-title">测评中心</h2>
+        <div class="assessment-cards">
+          <div class="assessment-card" id="card-entrance">
+            <div class="assess-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="assess-info">
+              <h3>入学测评</h3>
+              <p>45分钟 · 100分 · 了解当前水平</p>
+            </div>
+            <div class="assess-status" id="status-entrance">未开始</div>
+          </div>
+          <div class="assessment-card locked" id="card-final">
+            <div class="assess-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+            </div>
+            <div class="assess-info">
+              <h3>期末测评</h3>
+              <p>60分钟 · 100分 · 检验学习成果</p>
+            </div>
+            <div class="assess-status" id="status-final">已锁定</div>
+          </div>
+        </div>
+        <div class="compare-bar" id="compare-bar" style="display:none;">
+          <button class="compare-btn" id="btn-compare">查看前后测对比报告</button>
+        </div>
+      </div>
+      <div class="file-local-notice" id="file-local-notice-home" hidden>
+        <strong>本地测试模式（file://）</strong>
+        <p>本地测试可用：页面、朗读、输入默写、单词、考试和本地记录。自动语音识别可能受限；不可用或失败时会保存录音并标记待重试；请点“一键重新评分”重新启麦自动判分，不提供手动自评。</p>
+      </div>
+      <div class="home-tips">
+        <div class="tip-card">
+          <h3>每日学习流程（约1小时）</h3>
+          <ol>
+            <li><strong>朗读 15分钟</strong> — 听系统朗读，跟读2-3遍</li>
+            <li><strong>抄写 15分钟</strong> — 对照原文工整抄写</li>
+            <li><strong>默写 15分钟</strong> — 听句默写，对照批改</li>
+            <li><strong>单词 15分钟</strong> — 学新词 + 艾宾浩斯复习</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 每日学习视图 ===== -->
+    <section class="view hidden" id="view-day">
+      <div class="day-header">
+        <div class="day-badge" id="day-badge">Day 1</div>
+        <div class="day-info">
+          <h2 class="day-title" id="day-title"></h2>
+          <p class="day-source" id="day-source"></p>
+        </div>
+      </div>
+
+      <!-- 环节标签 -->
+      <div class="step-tabs" id="step-tabs">
+        <button class="step-tab active" data-step="reading">
+          <span class="step-num">1</span>朗读
+        </button>
+        <button class="step-tab" data-step="copying">
+          <span class="step-num">2</span>抄写
+        </button>
+        <button class="step-tab" data-step="dictation">
+          <span class="step-num">3</span>默写
+        </button>
+        <button class="step-tab" data-step="vocabulary">
+          <span class="step-num">4</span>单词
+        </button>
+      </div>
+
+      <!-- 环节1：朗读 -->
+      <div class="step-panel active" id="panel-reading">
+        <div class="tts-controls">
+          <button class="tts-btn primary" id="tts-play">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+            <span>朗读全文</span>
+          </button>
+          <button class="tts-btn" id="tts-pause">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            <span>暂停</span>
+          </button>
+          <button class="tts-btn" id="tts-stop">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6 6h12v12H6z"/></svg>
+            <span>停止</span>
+          </button>
+          <div class="speed-control eng-speed" id="eng-speed-control">
+            <div class="eng-speed-presets" id="eng-speed-presets" role="group" aria-label="语速档位">
+              <button type="button" class="eng-speed-preset" data-rate="0.6">慢速</button>
+              <button type="button" class="eng-speed-preset" data-rate="0.75">学习</button>
+              <button type="button" class="eng-speed-preset" data-rate="0.9">自然</button>
+              <button type="button" class="eng-speed-preset" data-rate="1.0">标准</button>
+            </div>
+            <input type="range" id="tts-rate" min="0.6" max="1.0" step="0.05" value="0.75" aria-label="朗读语速">
+            <span id="tts-rate-val" class="eng-speed-label">0.75× 学习速度</span>
+          </div>
+        </div>
+        <div class="passage-text" id="reading-text"></div>
+        <div class="passage-translation" id="reading-translation"></div>
+        <div id="shadowing-mount"></div>
+        <div class="complete-bar">
+          <label class="check-label"><input type="checkbox" id="check-reading"> 朗读完成</label>
+        </div>
+      </div>
+
+      <!-- 环节2：抄写 -->
+      <div class="step-panel hidden" id="panel-copying">
+        <div class="copy-instruction">
+          <p>请在练习本上工整抄写下面的英文短文，注意书写规范和标点符号。</p>
+        </div>
+        <div class="passage-text" id="copying-text"></div>
+        <div class="complete-bar">
+          <label class="check-label"><input type="checkbox" id="check-copying"> 抄写完成</label>
+        </div>
+      </div>
+
+      <!-- 环节3：默写 -->
+      <div class="step-panel hidden" id="panel-dictation">
+        <div class="dictation-controls">
+          <button class="tts-btn primary" id="dict-play-sentence">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+            <span>播放当前句</span>
+          </button>
+          <button class="tts-btn" id="dict-prev">上一句</button>
+          <span class="dict-progress" id="dict-progress">0 / 0</span>
+          <button class="tts-btn" id="dict-next">下一句</button>
+        </div>
+        <div class="dictation-hint" id="dictation-hint"></div>
+        <div class="dictation-write-area">
+          <p class="write-hint">在练习本上写下你听到的句子</p>
+        </div>
+        <div class="dictation-reveal">
+          <button class="reveal-btn" id="dict-reveal">显示原文对照</button>
+          <div class="passage-text hidden" id="dictation-answer"></div>
+        </div>
+        <div class="complete-bar">
+          <label class="check-label"><input type="checkbox" id="check-dictation"> 默写完成</label>
+        </div>
+      </div>
+
+      <!-- 环节4：单词 -->
+      <div class="step-panel hidden" id="panel-vocabulary">
+        <div class="vocab-section">
+          <h3 class="vocab-subtitle">今日新词</h3>
+          <div class="vocab-cards" id="vocab-new-cards"></div>
+        </div>
+        <div class="vocab-section" id="review-section">
+          <h3 class="vocab-subtitle">艾宾浩斯复习 <span class="review-count" id="review-count"></span></h3>
+          <div class="vocab-cards" id="vocab-review-cards"></div>
+          <div class="review-empty hidden" id="review-empty">暂无到期复习的单词，继续保持！</div>
+        </div>
+        <div id="vocab-speaking-mount"></div>
+        <div class="complete-bar">
+          <label class="check-label"><input type="checkbox" id="check-vocabulary"> 单词学习完成</label>
+        </div>
+      </div>
+
+      <!-- 今日完成 -->
+      <div class="day-complete-bar">
+        <span class="complete-progress" id="complete-progress">已完成 0/4 环节</span>
+        <button class="day-complete-btn" id="btn-day-complete">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          <span>标记今日完成</span>
+        </button>
+      </div>
+
+      <!-- 底部导航 -->
+      <div class="day-footer">
+        <button class="footer-btn" id="btn-prev-day">上一天</button>
+        <button class="footer-btn primary" id="btn-back-home">返回计划</button>
+        <button class="footer-btn" id="btn-next-day">下一天</button>
+      </div>
+
+      <!-- 完成提示 toast -->
+      <div class="toast hidden" id="toast"></div>
+    </section>
+
+
+    <!-- ===== 测评开始页 ===== -->
+    <section class="view hidden" id="view-assessment-start">
+      <div class="assess-start-card">
+        <h2 class="assess-start-title" id="assess-start-title">入学测评</h2>
+        <div class="assess-start-meta">
+          <div class="meta-item"><span class="meta-val" id="assess-start-duration">45</span><span class="meta-label">分钟</span></div>
+          <div class="meta-item"><span class="meta-val">100</span><span class="meta-label">总分</span></div>
+          <div class="meta-item"><span class="meta-val">3</span><span class="meta-label">部分</span></div>
+        </div>
+        <div class="assess-start-desc">
+          <h4>试卷结构</h4>
+          <ul>
+            <li>一、选择题（15题 × 2分 = 30分）</li>
+            <li>二、阅读理解（2篇 × 5题 × 5分 = 50分）</li>
+            <li>三、写作（1题 = 20分，按量表评分）</li>
+          </ul>
+          <h4>注意事项</h4>
+          <ul>
+            <li>开始后自动计时，时间到自动交卷</li>
+            <li>选择题和阅读题自动评分，写作由自评或家长按量表评分</li>
+            <li>未作答的题目不得分</li>
+            <li>交卷后可查看错题解析和成绩报告</li>
+          </ul>
+        </div>
+        <button class="assess-start-btn" id="btn-assess-start">开始测评</button>
+      </div>
+    </section>
+
+    <!-- ===== 期末密码页 ===== -->
+    <section class="view hidden" id="view-assessment-lock">
+      <div class="lock-card">
+        <div class="lock-icon">
+          <svg viewBox="0 0 24 24" width="48" height="48"><path fill="currentColor" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        </div>
+        <h2>期末测评已锁定</h2>
+        <p class="lock-desc">请输入解锁密码开启期末测评。<br>此密码仅为本地门槛，非高安全保护。</p>
+        <input type="password" class="lock-input" id="lock-password" placeholder="请输入密码">
+        <p class="lock-error hidden" id="lock-error">密码错误，请重试</p>
+        <button class="assess-start-btn" id="btn-lock-unlock">解锁并开始</button>
+        <button class="lock-back-btn" id="btn-lock-back">返回</button>
+      </div>
+    </section>
+
+    <!-- ===== 测评答题页 ===== -->
+    <section class="view hidden" id="view-assessment-test">
+      <div class="test-header">
+        <div class="test-title" id="test-title">入学测评</div>
+        <div class="test-timer" id="test-timer">45:00</div>
+      </div>
+      <div class="test-section-tabs" id="test-section-tabs">
+        <button class="test-tab active" data-section="choice">一、选择题</button>
+        <button class="test-tab" data-section="reading">二、阅读理解</button>
+        <button class="test-tab" data-section="writing">三、写作</button>
+      </div>
+      <div class="test-content" id="test-content"></div>
+      <div class="test-footer">
+        <button class="footer-btn" id="btn-test-prev">上一部分</button>
+        <button class="footer-btn" id="btn-test-next">下一部分</button>
+        <button class="footer-btn primary" id="btn-test-submit">交卷</button>
+      </div>
+    </section>
+
+    <!-- ===== 测评结果页 ===== -->
+    <section class="view hidden" id="view-assessment-result">
+      <div class="result-header">
+        <h2 id="result-title">测评结果</h2>
+        <div class="result-total">
+          <span class="result-score" id="result-total-score">--</span>
+          <span class="result-full">/ 100分</span>
+        </div>
+      </div>
+      <div class="result-subscores">
+        <div class="subscore-item">
+          <span class="subscore-name">选择题</span>
+          <span class="subscore-val" id="subscore-choice">-- / 30</span>
+        </div>
+        <div class="subscore-item">
+          <span class="subscore-name">阅读理解</span>
+          <span class="subscore-val" id="subscore-reading">-- / 50</span>
+        </div>
+        <div class="subscore-item">
+          <span class="subscore-name">写作</span>
+          <span class="subscore-val" id="subscore-writing">-- / 20</span>
+        </div>
+      </div>
+
+      <!-- 写作评分区 -->
+      <div class="writing-score-section" id="writing-score-section">
+        <h3 class="section-title">写作评分（自评 / 家长评）</h3>
+        <div class="writing-text-preview" id="writing-text-preview"></div>
+        <div class="rubric-list" id="rubric-list"></div>
+        <button class="assess-start-btn" id="btn-update-writing-score">更新写作得分</button>
+        <div class="writing-reference">
+          <h4>参考范文</h4>
+          <div class="writing-example" id="writing-example"></div>
+          <h4>范文解析</h4>
+          <div class="writing-analysis" id="writing-analysis"></div>
+        </div>
+      </div>
+
+      <!-- 错题解析 -->
+      <div class="wrong-answers-section">
+        <h3 class="section-title">错题解析</h3>
+        <div class="wrong-list" id="wrong-list"></div>
+        <div class="all-correct hidden" id="all-correct">客观题全部正确，太棒了！</div>
+      </div>
+
+      <div class="result-actions">
+        <button class="footer-btn" id="btn-result-home">返回首页</button>
+        <button class="footer-btn primary" id="btn-result-compare">查看对比报告</button>
+      </div>
+    </section>
+
+    <!-- ===== 前后测对比页 ===== -->
+    <section class="view hidden" id="view-assessment-compare">
+      <h2 class="section-title">前后测对比报告</h2>
+      <div class="compare-table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr><th>项目</th><th>入学测评</th><th>期末测评</th><th>变化</th></tr>
+          </thead>
+          <tbody id="compare-tbody"></tbody>
+        </table>
+      </div>
+      <div class="compare-summary" id="compare-summary"></div>
+      <div class="result-actions">
+        <button class="footer-btn primary" id="btn-compare-home">返回首页</button>
+      </div>
+    </section>
+    <!-- ===== 家长看板视图 ===== -->
+    <section class="view hidden" id="view-parent">
+      <div id="parent-dashboard-root"></div>
+    </section>
+
+    <!-- ===== 设置视图 ===== -->
+    <section class="view hidden" id="view-settings">
+      <div class="settings-group">
+        <h2 class="section-title">家长专区</h2>
+        <div class="about-text"><p>查看每天真实练习次数、正确与错误、用时和错词错句。仅本机保存，密码只是本地门槛。</p></div>
+        <button class="footer-btn primary" id="btn-open-parent">打开家长看板</button>
+      </div>
+      <div class="settings-group">
+        <h2 class="section-title">学习设置</h2>
+        <div class="setting-item">
+          <label>默认朗读语速</label>
+          <div class="speed-control eng-speed">
+            <input type="range" id="settings-rate" min="0.6" max="1.0" step="0.05" value="0.75" aria-label="默认朗读语速">
+            <span id="settings-rate-val" class="eng-speed-label">0.75× 学习速度</span>
+          </div>
+        </div>
+      </div>
+      <div class="settings-group">
+        <h2 class="section-title">数据管理</h2>
+        <p>IndexedDB 为主存储；导入前自动保存当前快照。</p>
+        <button class="footer-btn primary" id="btn-export-data" type="button">导出 JSON 备份</button>
+        <button class="footer-btn" id="btn-import-data" type="button">导入 JSON 备份</button>
+        <input id="input-import-data" type="file" accept="application/json,.json" hidden>
+        <button class="danger-btn" id="btn-reset-day">重置当天进度</button>
+        <button class="danger-btn" id="btn-reset-all">重置全部进度</button>
+      </div>
+      <div class="settings-group">
+        <h2 class="section-title">关于</h2>
+        <div class="about-text">
+          <p>30天英语短文学习计划 v1.0</p>
+          <p id="app-version">当前版本 english30-v13</p>
+          <p>面向小学六年级，每天约1小时。</p>
+          <p>包含朗读、抄写、默写、单词四个环节。</p>
+          <p>生词复习遵循艾宾浩斯记忆曲线（1天、2天、4天、8天、16天）。</p>
+          <p>数据保存在本机浏览器，离线可用。</p>
+        </div>
+        <div class="file-local-notice" id="file-local-notice-about" hidden>
+          <strong>本地测试模式（file://）</strong>
+          <p>本地测试可用：页面、朗读、输入默写、单词、考试和本地记录。自动语音识别可能受限；不可用或失败时会保存录音并标记待重试；请点“一键重新评分”重新启麦自动判分，不提供手动自评。</p>
+        </div>
+      </div>
+      <div class="settings-group">
+        <h2 class="section-title">添加到iPad主屏幕</h2>
+        <div class="about-text">
+          <p>在 Safari 中打开本页面，点击底部分享按钮，选择"添加到主屏幕"，即可像 App 一样离线使用。</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 确认弹窗 -->
+  <div class="modal-overlay hidden" id="modal-overlay">
+    <div class="modal-box">
+      <p class="modal-text" id="modal-text"></p>
+      <div class="modal-btns">
+        <button class="modal-btn" id="modal-cancel">取消</button>
+        <button class="modal-btn danger" id="modal-confirm">确认</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="source/storage.js"></script>
+  <script src="source/speech-pending.js"></script>
+  <script src="source/data.js"></script>
+  <script src="source/assessments.js"></script>
+  <script src="source/tts-controller.js"></script>
+  <script src="source/parent-dashboard.js"></script>
+  <script src="source/shadowing.js"></script>
+  <script src="source/typing-dictation.js"></script>
+  <script src="source/vocab-speaking.js"></script>
+  <script src="source/child-ux.js"></script>
+  <script src="source/update.js"></script>
+  <script src="source/app.js"></script>
+</body>
+</html>

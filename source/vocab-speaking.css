@@ -1,0 +1,314 @@
+/* =========================================================
+ * vocab-speaking.css — 独立单词听说练习模块样式
+ * 全部 scoped 到 .vsp-box，复用工程既有 :root 变量
+ * ========================================================= */
+
+.vsp-box {
+  margin: 16px 0;
+  padding: 16px;
+  background: var(--bg-card, #fff);
+  border: 1px solid var(--border, #f0e4d8);
+  border-radius: var(--radius, 14px);
+  box-shadow: var(--shadow, 0 2px 12px rgba(232, 115, 74, .1));
+  font-family: var(--font-cn, -apple-system, sans-serif);
+}
+
+.vsp-box .vsp-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.vsp-box .vsp-head h3 {
+  font-size: 1.05rem;
+  color: var(--primary-dark, #c95a32);
+}
+.vsp-box .vsp-mini {
+  font-size: .78rem;
+  padding: 4px 10px;
+  border: 1px solid var(--border, #f0e4d8);
+  background: var(--bg-soft, #fff0e6);
+  color: var(--text-light, #8a7e72);
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+}
+
+.vsp-box .vsp-note {
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.vsp-box .vsp-warn {
+  font-size: .8rem;
+  color: var(--danger, #d04a4a);
+  background: #fdecec;
+  border: 1px solid #f5c6c6;
+  border-radius: var(--radius-sm, 8px);
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* 进度行 */
+.vsp-box .vsp-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.vsp-box .vsp-step {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  white-space: nowrap;
+}
+.vsp-box .vsp-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.vsp-box .vsp-bar-fill {
+  height: 100%;
+  width: 0;
+  background: var(--primary, #e8734a);
+  border-radius: 3px;
+  transition: width .3s;
+}
+.vsp-box .vsp-statusdot {
+  font-size: .95rem;
+  font-weight: 700;
+  width: 1.6em;
+  text-align: center;
+  color: var(--text-muted, #b8ada0);
+}
+.vsp-box .vsp-statusdot.ok  { color: var(--success, #5ba85b); }
+.vsp-box .vsp-statusdot.bad { color: var(--danger, #d04a4a); }
+
+/* 单词卡 */
+.vsp-box .vsp-wordcard {
+  padding: 12px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  margin-bottom: 12px;
+}
+.vsp-box .vsp-wordline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.vsp-box .vsp-word {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--text, #3a322b);
+}
+.vsp-box .vsp-phonetic {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: .95rem;
+  color: var(--text-light, #8a7e72);
+}
+.vsp-box .vsp-pos {
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+}
+.vsp-box .vsp-meaning {
+  font-size: .95rem;
+  color: var(--primary-dark, #c95a32);
+  margin: 4px 0 8px;
+}
+.vsp-box .vsp-example {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: .92rem;
+  line-height: 1.6;
+  color: var(--text-muted, #6f655b);
+}
+.vsp-box .vsp-example-label {
+  font-family: var(--font-cn, sans-serif);
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+}
+
+/* 阶段区 */
+.vsp-box .vsp-stage { margin-bottom: 8px; }
+
+.vsp-box .vsp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.vsp-box .vsp-actions-center { justify-content: center; }
+
+.vsp-box .vsp-btn {
+  flex: 1 1 auto;
+  min-width: 96px;
+  padding: 9px 10px;
+  font-size: .88rem;
+  border: 1px solid var(--border, #f0e4d8);
+  background: var(--bg-card, #fff);
+  color: var(--text, #3a322b);
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+}
+.vsp-box .vsp-btn.primary {
+  background: var(--primary, #e8734a);
+  border-color: var(--primary, #e8734a);
+  color: #fff;
+  font-weight: 600;
+}
+.vsp-box .vsp-btn.ghost {
+  background: transparent;
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+}
+.vsp-box .vsp-btn:active:not(:disabled) { transform: scale(.97); }
+
+/* 禁用态：灰化 + 禁止点击 */
+.vsp-box .vsp-btn:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 跟读中状态 */
+.vsp-box .vsp-rec-state {
+  font-size: .95rem;
+  color: var(--text, #3a322b);
+  text-align: center;
+  padding: 14px 10px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  line-height: 1.6;
+}
+.vsp-box .vsp-live-dot {
+  width: 10px;
+  height: 10px;
+  margin: 10px auto 0;
+  border-radius: 50%;
+  background: var(--danger, #d04a4a);
+  animation: vsp-pulse 1.2s infinite;
+}
+@keyframes vsp-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(208, 74, 74, .5); }
+  70%  { box-shadow: 0 0 0 10px rgba(208, 74, 74, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(208, 74, 74, 0); }
+}
+
+/* 反馈 */
+.vsp-box .vsp-heard {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 8px;
+}
+.vsp-box .vsp-heard span { color: var(--text, #3a322b); }
+
+.vsp-box .vsp-verdict-line {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.vsp-box .vsp-verdict-line.ok  { color: var(--success, #5ba85b); }
+.vsp-box .vsp-verdict-line.bad { color: var(--danger, #d04a4a); }
+.vsp-box .vsp-verdict-sub {
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 10px;
+}
+
+/* 例句按词序对齐 */
+.vsp-box .vsp-align {
+  padding: 10px 12px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  margin-bottom: 10px;
+}
+.vsp-box .vsp-align-title {
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 6px;
+}
+.vsp-box .vsp-align-words {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+.vsp-box .vsp-aw {
+  border-radius: 4px;
+  padding: 0 2px;
+}
+.vsp-box .vsp-aw-correct { background: rgba(91, 168, 91, .18); }
+.vsp-box .vsp-aw-wrong   { background: rgba(208, 74, 74, .18); text-decoration: underline wavy var(--danger, #d04a4a); }
+.vsp-box .vsp-aw-wrong sup {
+  font-size: .62rem;
+  color: var(--danger, #d04a4a);
+  font-family: var(--font-cn, sans-serif);
+  margin-left: 2px;
+}
+.vsp-box .vsp-aw-missing { background: rgba(184, 173, 160, .25); color: var(--text-muted, #b8ada0); text-decoration: line-through; }
+.vsp-box .vsp-aw-extra   { background: rgba(74, 144, 184, .18); color: var(--accent, #4a90b8); }
+.vsp-box .vsp-align-count {
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+  margin-top: 6px;
+}
+.vsp-box .vsp-align-note {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+}
+
+/* 总结 */
+.vsp-box .vsp-summary {
+  margin-top: 10px;
+  padding: 14px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  text-align: center;
+}
+.vsp-box .vsp-summary-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-dark, #c95a32);
+  margin-bottom: 6px;
+}
+.vsp-box .vsp-summary-line { font-size: 1rem; margin-bottom: 6px; }
+.vsp-box .vsp-summary-line b { font-size: 1.3rem; color: var(--primary-dark, #c95a32); }
+.vsp-box .vsp-summary-sub {
+  font-size: .76rem;
+  color: var(--text-light, #8a7e72);
+  line-height: 1.5;
+}
+
+/* 历史 */
+.vsp-box .vsp-history {
+  margin-top: 14px;
+  border-top: 1px dashed var(--border, #f0e4d8);
+  padding-top: 10px;
+}
+.vsp-box .vsp-history h4 {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 6px;
+}
+.vsp-box .vsp-hist-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-size: .88rem;
+  margin-bottom: 4px;
+}
+.vsp-box .vsp-hist-row b { color: var(--primary-dark, #c95a32); }
+.vsp-box .vsp-hist-wrong span {
+  display: inline-block;
+  padding: 1px 8px;
+  margin-right: 4px;
+  background: #fdecec;
+  color: var(--danger, #d04a4a);
+  border-radius: 9px;
+  font-size: .78rem;
+}
+
+.vsp-box .hidden { display: none; }

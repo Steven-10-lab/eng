@@ -1,0 +1,66 @@
+{
+  "day": 18,
+  "title": "Helen Keller's First Word",
+  "titleCn": "海伦·凯勒的第一个词",
+  "source": "Biographical Story (adapted)",
+  "sourceCn": "人物传记故事（改写）",
+  "level": "medium",
+  "text": "Helen Keller was a normal baby at first. But when she was nineteen months old, a fever made her blind and deaf. In the dark and silent world, she could not speak to anyone. She grew angry and wild as she grew older. When she was seven, a teacher named Anne Sullivan came to her home. One day, Anne took Helen's hand and put it under running water. As the water flowed, Anne spelled the letters W-A-T-E-R into Helen's other hand. At first, Helen did not understand. Then, a light seemed to shine inside her mind. She knew that \"w-a-t-e-r\" meant the cool liquid touching her hand. In that moment, she understood that everything had a name. This was her first word, and it opened a whole new world to her. Later, Helen learned to read, write, and even speak.",
+  "translation": "海伦·凯勒起初是个正常的婴儿。但在她十九个月大时，一场高烧使她失去了视力和听力。在黑暗而寂静的世界里，她无法和任何人交流。随着长大，她变得易怒而任性。她七岁那年，一位名叫安妮·莎莉文的老师来到了她家。一天，安妮拉着海伦的手，放在流动的水下。水流过的时候，安妮在海伦的另一只手上拼写 W-A-T-E-R 这几个字母。起初海伦并不明白。接着，一道光芒仿佛照亮了她的内心。她知道了\"w-a-t-e-r\"就是流过她手边的那种凉凉的液体。在那一刻，她明白了万物都有自己的名字。这是她学会的第一个词，为她打开了一个全新的世界。后来，海伦学会了读书、写字，甚至学会了说话。",
+  "words": [
+    {
+      "word": "fever",
+      "phonetic": "/ˈfiːvər/",
+      "pos": "n.",
+      "meaning": "发烧；发热",
+      "example": "The boy stayed home because he had a fever."
+    },
+    {
+      "word": "blind",
+      "phonetic": "/blaɪnd/",
+      "pos": "adj.",
+      "meaning": "失明的；瞎的",
+      "example": "The blind man crossed the street with a dog."
+    },
+    {
+      "word": "deaf",
+      "phonetic": "/def/",
+      "pos": "adj.",
+      "meaning": "失聪的；聋的",
+      "example": "The deaf girl spoke with her hands."
+    },
+    {
+      "word": "silent",
+      "phonetic": "/ˈsaɪlənt/",
+      "pos": "adj.",
+      "meaning": "寂静的；无声的",
+      "example": "The classroom was silent during the test."
+    },
+    {
+      "word": "spell",
+      "phonetic": "/spel/",
+      "pos": "v.",
+      "meaning": "拼写",
+      "example": "Can you spell your name in English?"
+    },
+    {
+      "word": "liquid",
+      "phonetic": "/ˈlɪkwɪd/",
+      "pos": "n.",
+      "meaning": "液体",
+      "example": "Water is a clear liquid."
+    },
+    {
+      "word": "moment",
+      "phonetic": "/ˈmoʊmənt/",
+      "pos": "n.",
+      "meaning": "片刻；瞬间",
+      "example": "Please wait a moment."
+    }
+  ],
+  "dictationHints": [
+    "A fever made her ______ and deaf.",
+    "Anne ______ the letters W-A-T-E-R into Helen's hand.",
+    "In that ______, she understood that everything had a name."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "day": 12,
+  "title": "The Fox and the Grapes",
+  "titleCn": "狐狸和葡萄",
+  "source": "Aesop's Fables (adapted)",
+  "sourceCn": "伊索寓言（改写）",
+  "level": "medium",
+  "text": "A hungry fox walked through the forest on a hot afternoon. He looked up and saw a bunch of sweet, purple grapes on a high branch. His mouth watered. He jumped up to catch them, but he could not reach. He tried again and again, and each time he fell back to the ground. At last, he stopped. He shook his head and walked away slowly. \"They are probably sour anyway,\" he said to himself. \"I do not want them.\" The fox was proud, but he was also a little foolish. When we cannot get what we want, we sometimes pretend that we do not want it at all. That is the moral of this old story.",
+  "translation": "一个炎热的午后，一只饥饿的狐狸穿过森林。他抬头看见高高的枝条上挂着一串甜甜的紫葡萄，口水都流了出来。他跳起来去抓，却怎么也够不着。他试了一次又一次，每次都摔回地面。最后他停了下来，摇摇头，慢慢走开了。\"反正它们大概也是酸的，\"他自言自语，\"我才不稀罕呢。\"狐狸很骄傲，但也有一点愚蠢。当我们得不到想要的东西时，有时会假装自己根本不想要。这就是这个古老故事的寓意。",
+  "words": [
+    {
+      "word": "bunch",
+      "phonetic": "/bʌntʃ/",
+      "pos": "n.",
+      "meaning": "一串；一束",
+      "example": "She bought a bunch of bananas at the market."
+    },
+    {
+      "word": "purple",
+      "phonetic": "/ˈpɜːrpl/",
+      "pos": "adj.",
+      "meaning": "紫色的",
+      "example": "The little girl wore a purple dress to the party."
+    },
+    {
+      "word": "branch",
+      "phonetic": "/bræntʃ/",
+      "pos": "n.",
+      "meaning": "树枝；分支",
+      "example": "The bird built its nest on a high branch."
+    },
+    {
+      "word": "reach",
+      "phonetic": "/riːtʃ/",
+      "pos": "v.",
+      "meaning": "够到；到达",
+      "example": "The boy stood on his toes to reach the book."
+    },
+    {
+      "word": "sour",
+      "phonetic": "/ˈsaʊər/",
+      "pos": "adj.",
+      "meaning": "酸的；酸味的",
+      "example": "This lemon is too sour to eat."
+    },
+    {
+      "word": "proud",
+      "phonetic": "/praʊd/",
+      "pos": "adj.",
+      "meaning": "骄傲的；自豪的",
+      "example": "He was proud of his good exam results."
+    },
+    {
+      "word": "pretend",
+      "phonetic": "/prɪˈtend/",
+      "pos": "v.",
+      "meaning": "假装；装作",
+      "example": "The children pretended to be pirates."
+    }
+  ],
+  "dictationHints": [
+    "He saw a bunch of sweet, ______ grapes on a high branch.",
+    "He jumped up to catch them, but he could not ______.",
+    "\"They are probably ______ anyway,\" he said to himself."
+  ]
+}

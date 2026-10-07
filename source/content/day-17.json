@@ -1,0 +1,66 @@
+{
+  "day": 17,
+  "title": "The Best Gift",
+  "titleCn": "最好的礼物",
+  "source": "Original Story",
+  "sourceCn": "原创故事",
+  "level": "medium",
+  "text": "Last year, on my birthday, I expected a wonderful gift from my parents. I hoped for a new bicycle or a box of colourful books. But in the morning, my mother gave me a small, flat package. I opened it slowly. It was a simple photo album. On the first page was a picture of me as a baby, and on every next page, there was another photo of me growing up. My mother had written short notes under each one. \"Your first smile,\" and \"The day you learned to ride.\" I looked through the book again and again. I understood. This album held all my family's love, and no bicycle could ever be worth more. That night, I hugged my mother and said, \"This is the best gift I have ever received.\" Love is the finest present of all.",
+  "translation": "去年我生日那天，我期待着父母送我一件很棒的礼物。我希望是一辆新自行车，或者一盒彩色的书。但早上，妈妈给了我一个扁扁的小盒子。我慢慢打开，里面是一本简单的相册。第一页是我还是婴儿时的照片，之后每一页都有一张我慢慢长大的照片。妈妈在每张照片下面写了短短的注解：\"你的第一个微笑\"，还有\"你学会骑车的那一天\"。我把这本相册翻了一遍又一遍。我明白了。这本相册装着全家人的爱，任何自行车都无法与之相比。那天晚上，我抱住妈妈说：\"这是我收到过的最好的礼物。\"爱是所有礼物中最珍贵的。",
+  "words": [
+    {
+      "word": "expect",
+      "phonetic": "/ɪkˈspekt/",
+      "pos": "v.",
+      "meaning": "期待；预料",
+      "example": "I expect a letter from my friend today."
+    },
+    {
+      "word": "package",
+      "phonetic": "/ˈpækɪdʒ/",
+      "pos": "n.",
+      "meaning": "包裹；包装盒",
+      "example": "The postman brought a package to our door."
+    },
+    {
+      "word": "album",
+      "phonetic": "/ˈælbəm/",
+      "pos": "n.",
+      "meaning": "相册；影集",
+      "example": "We keep our holiday photos in an album."
+    },
+    {
+      "word": "note",
+      "phonetic": "/noʊt/",
+      "pos": "n.",
+      "meaning": "便条；短笺",
+      "example": "She left a note on the kitchen table."
+    },
+    {
+      "word": "hug",
+      "phonetic": "/hʌɡ/",
+      "pos": "v.",
+      "meaning": "拥抱",
+      "example": "The little girl ran to hug her mother."
+    },
+    {
+      "word": "receive",
+      "phonetic": "/rɪˈsiːv/",
+      "pos": "v.",
+      "meaning": "收到；接到",
+      "example": "I received a present on my birthday."
+    },
+    {
+      "word": "present",
+      "phonetic": "/ˈpreznt/",
+      "pos": "n.",
+      "meaning": "礼物",
+      "example": "He gave me a beautiful present."
+    }
+  ],
+  "dictationHints": [
+    "My mother gave me a small, flat ______.",
+    "It was a simple photo ______.",
+    "\"This is the best gift I have ever ______.\""
+  ]
+}

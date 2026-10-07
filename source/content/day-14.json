@@ -1,0 +1,73 @@
+{
+  "day": 14,
+  "title": "The Honeybee's Work",
+  "titleCn": "蜜蜂的工作",
+  "source": "Nature and Science Essay",
+  "sourceCn": "自然科普散文",
+  "level": "medium",
+  "text": "A honeybee is a busy little insect. On a sunny morning, she flies from flower to flower. She drinks sweet nectar and carries pollen on her legs. This pollen helps plants grow new seeds. Inside the hive, many bees work together. They turn the nectar into honey and store it in small wax cells. A bee visits about one thousand flowers in a single day. If the bees stopped working, we would have no honey, and many plants could not grow. Farmers love bees because they help fruit trees produce more apples and pears. Next time you see a bee, do not be afraid. She is not trying to hurt you. She is only doing her important work for nature. Remember this small insect, and you will understand why hard work matters to everyone.",
+  "translation": "蜜蜂是一种忙碌的小昆虫。在阳光明媚的早晨，她从一朵花飞到另一朵花。她吮吸甜甜的花蜜，腿上沾着花粉。这些花粉帮助植物长出新的种子。在蜂巢里，许多蜜蜂一起劳作。她们把花蜜酿成蜂蜜，储存在小小的蜡巢中。一只蜜蜂一天大约要造访一千朵花。如果蜜蜂停止工作，我们就吃不到蜂蜜，许多植物也无法生长。农民喜欢蜜蜂，因为她们帮助果树结出更多的苹果和梨。下次你看到蜜蜂时，不要害怕。她不是想伤害你，只是在为大自然做着重要的工作。记住这只小昆虫，你就会明白为什么努力工作对每个人都很重要。",
+  "words": [
+    {
+      "word": "honeybee",
+      "phonetic": "/ˈhʌnibiː/",
+      "pos": "n.",
+      "meaning": "蜜蜂",
+      "example": "A honeybee flew from flower to flower."
+    },
+    {
+      "word": "insect",
+      "phonetic": "/ˈɪnsekt/",
+      "pos": "n.",
+      "meaning": "昆虫",
+      "example": "A ladybird is a small, colourful insect."
+    },
+    {
+      "word": "nectar",
+      "phonetic": "/ˈnektər/",
+      "pos": "n.",
+      "meaning": "花蜜",
+      "example": "Butterflies drink nectar from the flowers."
+    },
+    {
+      "word": "pollen",
+      "phonetic": "/ˈpɒlən/",
+      "pos": "n.",
+      "meaning": "花粉",
+      "example": "Bees carry pollen on their legs."
+    },
+    {
+      "word": "hive",
+      "phonetic": "/haɪv/",
+      "pos": "n.",
+      "meaning": "蜂巢；蜂箱",
+      "example": "The bees live together in a hive."
+    },
+    {
+      "word": "wax",
+      "phonetic": "/wæks/",
+      "pos": "n.",
+      "meaning": "蜡；蜂蜡",
+      "example": "Bees build their homes from wax."
+    },
+    {
+      "word": "produce",
+      "phonetic": "/prəˈdjuːs/",
+      "pos": "v.",
+      "meaning": "生产；结出",
+      "example": "Apple trees produce fruit in autumn."
+    },
+    {
+      "word": "nature",
+      "phonetic": "/ˈneɪtʃər/",
+      "pos": "n.",
+      "meaning": "大自然；自然界",
+      "example": "We should protect nature and its animals."
+    }
+  ],
+  "dictationHints": [
+    "She drinks sweet ______ and carries pollen on her legs.",
+    "They turn the nectar into honey and store it in small ______ cells.",
+    "Farmers love bees because they help fruit trees ______ more apples."
+  ]
+}

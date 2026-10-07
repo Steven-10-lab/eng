@@ -1,0 +1,257 @@
+{
+  "id": "final",
+  "title": "期末测评",
+  "duration": 60,
+  "sections": {
+    "choice": {
+      "name": "选择题",
+      "totalPoints": 30,
+      "questions": [
+        {
+          "id": "c1",
+          "points": 2,
+          "question": "Listen! The grasshopper ______ in the tall grass.",
+          "options": ["A. sings", "B. sang", "C. is singing", "D. sing"],
+          "answer": "C",
+          "explanation": "句首 Look / Listen! 提示动作正在发生，用现在进行时 be + doing，故选 C。A 是一般现在时，B 是一般过去时，D 缺少第三人称单数 -s，都不与 Listen! 搭配。"
+        },
+        {
+          "id": "c2",
+          "points": 2,
+          "question": "The ant carried three ______ of rice back to her home.",
+          "options": ["A. grain", "B. grains", "C. grain's", "D. graines"],
+          "answer": "B",
+          "explanation": "grain 表示\"一粒谷物\"时是可数名词，前面有 three，要用复数 grains。A 是单数，C 是所有格，D 拼写错误（谷物复数直接加 -s）。"
+        },
+        {
+          "id": "c3",
+          "points": 2,
+          "question": "The little cat slept quietly ______ the big old tree.",
+          "options": ["A. under", "B. in", "C. on", "D. between"],
+          "answer": "A",
+          "explanation": "\"在树下乘凉/睡觉\"用介词 under，对应课文里 beneath 的用法。B in 表示在树内部，C on 表示在树顶表面，D between 用于两者之间。"
+        },
+        {
+          "id": "c4",
+          "points": 2,
+          "question": "There is ______ old stove in the corner of the kitchen.",
+          "options": ["A. a", "B. an", "C. the", "D. /"],
+          "answer": "B",
+          "explanation": "old 以元音音素 /əʊ/ 开头，泛指\"一个旧炉子\"要用 an。A a 用于辅音音素开头的词前；C the 是定冠词，表特指；此处第一次提到，不用 the。"
+        },
+        {
+          "id": "c5",
+          "points": 2,
+          "question": "This apple pie tastes ______ than that one.",
+          "options": ["A. delicious", "B. deliciouser", "C. most delicious", "D. more delicious"],
+          "answer": "D",
+          "explanation": "多音节形容词 delicious 的比较级要在前面加 more，即 more delicious。A 是原级，B 错误地加了 -er，C 是最高级，且句中有 than 必须用比较级。"
+        },
+        {
+          "id": "c6",
+          "points": 2,
+          "question": "Squirrels ______ nuts in autumn so they have food in winter.",
+          "options": ["A. is storing", "B. stores", "C. store up to", "D. store"],
+          "answer": "D",
+          "explanation": "主语 Squirrels 是复数，动词用原形 store；store sth 本身就是\"储存某物\"。A 与复数主语不一致，B 是第三人称单数，C 多了多余的 up to。"
+        },
+        {
+          "id": "c7",
+          "points": 2,
+          "question": "The seedling is very small now, but ______ will grow tall and strong.",
+          "options": ["A. it", "B. its", "C. it's", "D. they"],
+          "answer": "A",
+          "explanation": "指代单数名词 seedling，作主语用主格代词 it。B its 是物主代词，后面需接名词；C it's = it is，放在这里句子会出现两个谓语；D they 是复数，与单数主语不一致。"
+        },
+        {
+          "id": "c8",
+          "points": 2,
+          "question": "Yesterday the snail ______ slowly across the wet garden path.",
+          "options": ["A. crawls", "B. crawl", "C. crawled", "D. is crawling"],
+          "answer": "C",
+          "explanation": "时间状语 Yesterday 提示用一般过去时，动词加 -ed，即 crawled。A 是一般现在时第三人称单数，B 是原形，D 是现在进行时，都与 yesterday 不匹配。"
+        },
+        {
+          "id": "c9",
+          "points": 2,
+          "question": "Perhaps it ______ tomorrow. Please take an umbrella with you.",
+          "options": ["A. rains", "B. rained", "C. will rain", "D. is raining"],
+          "answer": "C",
+          "explanation": "时间状语 tomorrow 提示用一般将来时 will + 动词原形。A 是一般现在时，B 是一般过去时，D 是现在进行时，都不与将来时间 tomorrow 搭配。"
+        },
+        {
+          "id": "c10",
+          "points": 2,
+          "question": "The little bird built its nest ______ a high branch of the apple tree.",
+          "options": ["A. in", "B. at", "C. on", "D. of"],
+          "answer": "C",
+          "explanation": "\"在树枝上\"用介词 on，表示在树枝这个平面之上。A in 指在内部；B at 后接点状小地点；D of 表所属，均不符合。"
+        },
+        {
+          "id": "c11",
+          "points": 2,
+          "question": "— I'm afraid I can't come to your birthday party this Saturday.\n— ______",
+          "options": ["A. You're welcome.", "B. What a pity!", "C. Congratulations!", "D. It's all right."],
+          "answer": "B",
+          "explanation": "对方说\"恐怕不能来你的生日派对\"，应表示遗憾 What a pity!。A 是回应感谢，C 是祝贺，D 多用来回应道歉，都不符合语境。"
+        },
+        {
+          "id": "c12",
+          "points": 2,
+          "question": "Many wild birds fly south for ______ when the weather turns cold.",
+          "options": ["A. migration", "B. migrate", "C. migrates", "D. migrating"],
+          "answer": "A",
+          "explanation": "介词 for 后面要接名词，migration 是名词\"迁徙\"。B 是动词原形，C 是动词第三人称单数，D 是动名词，虽然形式上可跟介词，但\"for migration\"是固定搭配，表示\"为了迁徙\"。"
+        },
+        {
+          "id": "c13",
+          "points": 2,
+          "question": "On hot summer afternoons, we sat in the ______ of the big tree.",
+          "options": ["A. shade", "B. shady", "C. shadowy", "D. shades"],
+          "answer": "A",
+          "explanation": "the 后面需要名词，shade 是名词\"阴凉处\"，in the shade 是固定搭配\"在阴凉处\"。B 是形容词，C 也是形容词，D 加了复数不符合这一固定短语。"
+        },
+        {
+          "id": "c14",
+          "points": 2,
+          "question": "There is a small wooden table ______ the corner of the living room.",
+          "options": ["A. on", "B. at", "C. to", "D. in"],
+          "answer": "D",
+          "explanation": "\"在房间角落里\"用介词 in，即 in the corner（室内角落）。B at the corner 多用于室外街角；A on the corner 指在转角表面；C to 不与 corner 这样搭配。"
+        },
+        {
+          "id": "c15",
+          "points": 2,
+          "question": "The ______ on the old stove danced when the wind came through the window.",
+          "options": ["A. flame", "B. flames", "C. flame's", "D. flams"],
+          "answer": "B",
+          "explanation": "句中谓语动词 danced 是复数形式，主语也要用复数 flames。A 是单数，与 danced 不一致；C 是所有格；D 拼写错误（flame 的复数直接加 -s）。"
+        }
+      ]
+    },
+    "reading": {
+      "name": "阅读理解",
+      "totalPoints": 50,
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Lily's Seedling",
+          "text": "One spring morning, Lily dug a small soft hole behind her house. She put one little brown seed in the earth and covered it with warm soil. Every day she ran to look at the spot. Day one, nothing. Day three, still nothing. By the end of the week, she sat down on the green grass and felt very sad. \"It will never grow,\" she told her grandma in a low voice. Her grandma smiled and pointed to a low branch of the old apple tree. \"Under that branch, last year I planted a seedling just like yours. We thought it was dead too. Now look, it has become a small tree and gives us cool shade in summer.\" Lily looked up. She saw a fresh green stem pushing up through the soil, right beside her small shoes. She did not dig it up again. She only watered it quietly, morning and evening. Perhaps, she thought, good things grow slowly, when we wait with patience.",
+          "questions": [
+            {
+              "id": "p1q1",
+              "points": 5,
+              "type": "literal",
+              "question": "What did Lily put in the hole behind her house?",
+              "options": ["A. A small tree.", "B. One little seed.", "C. Some soft soil.", "D. A snail."],
+              "answer": "B",
+              "explanation": "原文第二句直接说 She put one little seed in the earth，故选 B。A 是后来长出来的；C 是盖在种子上面的；D 文中未出现。"
+            },
+            {
+              "id": "p1q2",
+              "points": 5,
+              "type": "vocabulary",
+              "question": "The underlined word \"spot\" in the passage means ______.",
+              "options": ["A. a small place", "B. a dirty mark", "C. a kind of seed", "D. a short time"],
+              "answer": "A",
+              "explanation": "上下文是 she ran to look at the ______，指她种下种子的那个\"地点\"，故选 A。B 是 spot 的另一个意思\"污点\"，但在本语境不通；C、D 与上下文无关。"
+            },
+            {
+              "id": "p1q3",
+              "points": 5,
+              "type": "integration",
+              "question": "Why did Lily's grandma tell her about the apple tree's seedling?",
+              "options": ["A. Because the apple tree was dying.", "B. Because she wanted Lily to dig up the seed.", "C. Because she wanted to teach Lily to wait patiently.", "D. Because she asked Lily to water the apple tree."],
+              "answer": "C",
+              "explanation": "把两处信息整合：Lily 沮丧说 It will never grow，奶奶讲去年那棵被以为死了、如今已成小树的 seedling，并在结尾点题 good things grow slowly when we wait with patience，故选 C。A 与原文相反；B 与后文 She did not dig it up again 矛盾；D 文中未提。"
+            },
+            {
+              "id": "p1q4",
+              "points": 5,
+              "type": "mainidea",
+              "question": "What is the main idea of the story?",
+              "options": ["A. Seeds are very easy to plant.", "B. Grandma is good at growing trees.", "C. Good things take time and patience.", "D. Spring is the best season."],
+              "answer": "C",
+              "explanation": "全文围绕 Lily 焦急等种子发芽、奶奶用苹果树幼苗的故事启发她，结尾句 perhaps good things grow slowly, when we wait with patience 即主旨，故选 C。A、B、D 都只是文中细节或未提及。"
+            },
+            {
+              "id": "p1q5",
+              "points": 5,
+              "type": "inference",
+              "question": "What can we infer about Lily on the last day of the story?",
+              "options": ["A. She gave up on the seed.", "B. She became more patient than before.", "C. She dug the seed up to look at it.", "D. She stopped watering the seed."],
+              "answer": "B",
+              "explanation": "由 She did not dig it up again. She only watered it quietly, morning and evening 可以推断她变得比以前更有耐心，故选 B。A、C、D 均与原文事实相反。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "title": "The Boy Who Was Afraid to Speak",
+          "text": "Tom was a quiet boy. When the teacher asked a question, he always looked down at his desk. His face turned red, and his heart beat fast. He was afraid to speak in front of the class. One Monday, his English teacher gave a special task: each student must tell a one-minute story about an animal. Tom thought for a long time. He chose the grasshopper from a story he had read. That night, he stood in front of the mirror and practiced again and again. His mother listened from the doorway and smiled. On Friday, his turn came. His hands shook, but he took a deep breath and began. He told about a grasshopper who stored grain for winter, just as the ants did. When he finished, the class clapped. Tom did not become a loud boy, but he learned one important lesson: courage is not the absence of fear; it is taking one small step even when you are afraid.",
+          "questions": [
+            {
+              "id": "p2q1",
+              "points": 5,
+              "type": "literal",
+              "question": "What did Tom's English teacher ask the students to do?",
+              "options": ["A. To write a long essay.", "B. To tell a one-minute animal story.", "C. To read a poem aloud.", "D. To draw a grasshopper."],
+              "answer": "B",
+              "explanation": "原文第三段直接说 each student must tell a one-minute story about an animal，故选 B。A、C、D 均未在文中出现。"
+            },
+            {
+              "id": "p2q2",
+              "points": 5,
+              "type": "vocabulary",
+              "question": "The underlined word \"absence\" in the last sentence means ______.",
+              "options": ["A. being away; not having", "B. a short time", "C. a kind of fear", "D. speaking loudly"],
+              "answer": "A",
+              "explanation": "末句 courage is not the absence of fear; it is taking one small step... 意为\"勇气不是没有恐惧，而是害怕时仍迈出一小步\"，absence 此处意为\"没有、不存在\"，故选 A。B、C、D 均不符合句意。"
+            },
+            {
+              "id": "p2q3",
+              "points": 5,
+              "type": "integration",
+              "question": "How did Tom prepare for his task before Friday?",
+              "options": ["A. He asked his teacher to help him write the story.", "B. He practiced in front of a mirror many times.", "C. He forgot about the task until Friday.", "D. He asked his mother to speak for him."],
+              "answer": "B",
+              "explanation": "整合两处信息：That night, he stood in front of the mirror and practiced again and again，且 his mother listened from the doorway，可见他对着镜子反复练习，故选 B。A、D 与原文不符；C 与他认真准备矛盾。"
+            },
+            {
+              "id": "p2q4",
+              "points": 5,
+              "type": "mainidea",
+              "question": "What is the best title for this passage?",
+              "options": ["A. A Clever Grasshopper", "B. Tom's Favorite Animal", "C. Courage Means Taking a Step", "D. How to Practice Stories"],
+              "answer": "C",
+              "explanation": "全文从 Tom 害怕发言，到他选择故事、反复练习、最后勇敢上台并获得掌声，末句 courage is not the absence of fear; it is taking one small step 即主旨，故选 C。A、B、D 都只是细节。"
+            },
+            {
+              "id": "p2q5",
+              "points": 5,
+              "type": "inference",
+              "question": "What can we infer about Tom after his speech?",
+              "options": ["A. He became the noisiest boy in class.", "B. He still felt afraid, but he was not defeated by it.", "C. He stopped reading stories.", "D. He hated English class."],
+              "answer": "B",
+              "explanation": "原文说 His hands shook, but he took a deep breath and began，且末句点明勇气是害怕时仍迈出一步，可推断他依然会紧张，但没有被恐惧打败，故选 B。A 与 Tom did not become a loud boy 相反；C、D 文中无依据。"
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "name": "写作",
+      "totalPoints": 20,
+      "task": "请以 \"A Story That Taught Me a Lesson\"（一个教会我道理的故事）为题，写一篇 60-80 词的英语短文。内容要点：1）这个故事讲了什么（谁、做了什么）；2）你从中学到了什么道理；3）这个道理怎样影响了你现在的做法。鼓励使用这30天中学到的词汇，如 patience, courage, step, grow, store, believe, perhaps 等。",
+      "wordCount": "60-80词",
+      "rubric": [
+        {"criteria": "内容完整", "points": 8, "description": "覆盖题目所有要点（故事内容、学到的道理、对自己的影响），意思清楚"},
+        {"criteria": "语言准确", "points": 6, "description": "时态、主谓一致、拼写、标点基本正确，错误较少"},
+        {"criteria": "词汇运用", "points": 4, "description": "用词恰当，能尝试使用本阶段学到的词汇（如 patience, courage, step, grow 等）"},
+        {"criteria": "结构连贯", "points": 2, "description": "有开头、主体、结尾，使用 and, but, so, because 等连接词，逻辑清晰"}
+      ],
+      "example": "A Story That Taught Me a Lesson\nOnce I read a story about a grasshopper who sang all summer, while an ant stored grain day after day. When winter came, the grasshopper had nothing to eat. The story taught me a lesson: work hard today, and you will not be hungry tomorrow. Now I do my homework first before I play, and I believe small steps every day will make me grow.",
+      "analysis": "范文约70词，符合词数要求。内容上完整覆盖了三个要点：用蚂蚁和蚱蜢的故事做引子（注意是自己化用、不是照抄原文），点出道理\"今日努力、明天不挨饿\"，并落到自己现在先做作业再玩的行动。语言上时态正确（过去时讲故事、一般现在时谈自己），主谓一致。词汇上使用了 stored grain, believe, grow, small steps 等本阶段所学词。结构上用 Once / The story taught me / Now 串联，层次清楚。"
+    }
+  }
+}

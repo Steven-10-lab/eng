@@ -1,0 +1,261 @@
+/* =========================================================================
+ * typing-dictation.css — 输入式填空默写模块样式（独立作用域 .td-*）
+ * 与既有 styles.css 共存，不修改既有规则。
+ * ========================================================================= */
+
+/* 模式切换条：注入到 #panel-dictation 顶部 */
+.td-mode-switch {
+  margin: 0 0 12px;
+}
+.td-mode-btns {
+  display: flex;
+  gap: 8px;
+  background: #eef1f6;
+  border-radius: 12px;
+  padding: 4px;
+}
+.td-mode-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 8px;
+  border-radius: 9px;
+  font-size: 14px;
+  color: #5a6472;
+  cursor: pointer;
+  transition: all .15s;
+}
+.td-mode-btn.active {
+  background: #fff;
+  color: #2b6cb0;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+.td-mode-tip {
+  margin: 8px 2px 0;
+  font-size: 12px;
+  color: #8a93a3;
+}
+
+/* 切到输入模式时，隐藏旧手写区（旧模式本身完全保留） */
+#panel-dictation.td-type-mode .dictation-controls,
+#panel-dictation.td-type-mode #dictation-hint,
+#panel-dictation.td-type-mode .dictation-write-area,
+#panel-dictation.td-type-mode .dictation-reveal {
+  display: none;
+}
+/* 模块显隐由 JS 切换 .hidden 类控制（全局 .hidden 为 !important，优先级最高）；
+   不再写 display:none/block，避免与 .hidden 打架导致切 type 后仍不可见。 */
+#typing-dictation-mount.td-module { display: block; }
+
+/* 模块主体 */
+.td-module {
+  padding: 4px 0 8px;
+}
+.td-head .td-title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: #222;
+}
+.td-head .td-sub {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: #8a93a3;
+}
+
+/* 工具栏 */
+.td-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.td-btn {
+  border: none;
+  background: #eef1f6;
+  color: #333;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.td-btn.primary {
+  background: #2b6cb0;
+  color: #fff;
+  font-weight: 600;
+}
+.td-btn.small {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+.td-btn:active { opacity: .85; }
+
+/* 结果条 */
+.td-result {
+  flex-basis: 100%;
+  background: #f5f8fc;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.td-score-line {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+.td-wrong-words {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #c53030;
+}
+.td-allok {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #2f855a;
+  font-weight: 600;
+}
+.td-actions {
+  flex-basis: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+/* 题目卡片 */
+.td-card {
+  border: 1px solid #e6e9ef;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+.td-card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.td-speak {
+  border: none;
+  background: transparent;
+  color: #2b6cb0;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+.td-qbadge {
+  margin-left: auto;
+  font-size: 12px;
+  color: #8a93a3;
+}
+.td-sentence {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #1f2733;
+}
+.td-input {
+  display: inline-block;
+  min-width: 110px;
+  width: auto;
+  border: none;
+  border-bottom: 2px solid #2b6cb0;
+  background: #f0f6ff;
+  border-radius: 6px 6px 0 0;
+  padding: 2px 8px;
+  margin: 0 4px;
+  font-size: 17px;
+  text-align: center;
+  outline: none;
+}
+.td-input:focus {
+  background: #e3efff;
+}
+.td-input.correct {
+  border-bottom-color: #2f855a;
+  background: #e6f6ee;
+  color: #22633f;
+}
+.td-input.wrong {
+  border-bottom-color: #c53030;
+  background: #fdecec;
+  color: #9b2c2c;
+}
+
+/* 反馈 */
+.td-feedback {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+.td-tag {
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.td-tag.ok { background: #e6f6ee; color: #22633f; }
+.td-tag.bad { background: #fdecec; color: #9b2c2c; }
+.td-ans { color: #2b6cb0; font-weight: 600; }
+.td-note { color: #6b7280; }
+
+/* 历史区 */
+.td-history {
+  margin-top: 16px;
+  border-top: 1px dashed #d8dde6;
+  padding-top: 12px;
+}
+.td-history-empty {
+  font-size: 13px;
+  color: #9aa3b2;
+}
+.td-history-summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+.td-history-summary .td-h-title {
+  font-size: 13px;
+  color: #444;
+}
+.td-h-toggle {
+  border: none;
+  background: #eef1f6;
+  color: #2b6cb0;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.td-h-detail.hidden { display: none; }
+.td-history-head { margin-bottom: 6px; }
+.td-h-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.td-history-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.td-h-item { color: #444; }
+.td-h-item.up { color: #2f855a; font-weight: 600; }
+.td-h-item.down { color: #c53030; font-weight: 600; }
+.td-h-list { display: flex; flex-direction: column; gap: 6px; }
+.td-h-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  color: #666;
+  background: #f7f8fa;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+.td-h-time { color: #8a93a3; }
+.td-h-score { font-weight: 600; color: #333; }
+.td-h-wrong { color: #c53030; }

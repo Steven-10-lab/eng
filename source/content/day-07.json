@@ -1,0 +1,66 @@
+{
+  "day": 7,
+  "title": "The Spring Festival",
+  "titleCn": "春节",
+  "source": "Chinese Festival Culture (adapted)",
+  "sourceCn": "中国节日文化（改写）",
+  "level": "easy",
+  "text": "The Spring Festival is the most important festival in China. It comes in January or February. Before the festival, families clean their houses. They buy fruit, candy, and nice food. People wear red clothes, because red means good luck. On New Year's Eve, all the family sit together and have a big dinner. They eat dumplings and fish. After dinner, they watch TV and talk. Children get red envelopes with lucky money inside. At midnight, people set off fireworks. The sky is bright and loud. Everyone smiles. We wish our family a happy new year and good health.",
+  "translation": "春节是中国最重要的节日。它在一月或二月到来。节前，家家户户打扫房屋，买水果、糖果和好吃的食物。人们穿红色的衣服，因为红色代表好运。除夕夜，全家人坐在一起吃团圆饭。他们吃饺子和鱼。饭后，他们看电视、聊天。孩子们会收到装着压岁钱的红包。午夜时分，人们放烟花，天空又亮又热闹。每个人都笑容满面。我们祝愿家人新年快乐，身体健康。",
+  "words": [
+    {
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "pos": "n.",
+      "meaning": "节日",
+      "example": "The Spring Festival is my favorite festival."
+    },
+    {
+      "word": "important",
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "meaning": "重要的",
+      "example": "English is an important subject."
+    },
+    {
+      "word": "luck",
+      "phonetic": "/lʌk/",
+      "pos": "n.",
+      "meaning": "运气",
+      "example": "Good luck on your test!"
+    },
+    {
+      "word": "dumpling",
+      "phonetic": "/ˈdʌmplɪŋ/",
+      "pos": "n.",
+      "meaning": "饺子",
+      "example": "We eat dumplings at Spring Festival."
+    },
+    {
+      "word": "envelope",
+      "phonetic": "/ˈenvələʊp/",
+      "pos": "n.",
+      "meaning": "信封",
+      "example": "She put the letter in an envelope."
+    },
+    {
+      "word": "midnight",
+      "phonetic": "/ˈmɪdnaɪt/",
+      "pos": "n.",
+      "meaning": "午夜；半夜",
+      "example": "The clock struck twelve at midnight."
+    },
+    {
+      "word": "firework",
+      "phonetic": "/ˈfaɪəwɜːk/",
+      "pos": "n.",
+      "meaning": "烟花",
+      "example": "The fireworks lit up the sky."
+    }
+  ],
+  "dictationHints": [
+    "The Spring Festival is the most important ______ in China.",
+    "People wear red clothes, because red means good ______.",
+    "At midnight, people set off ______."
+  ]
+}

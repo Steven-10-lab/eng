@@ -1,0 +1,222 @@
+/* =========================================================================
+ * child-ux.css — 儿童端 UX 覆盖样式（只新增，不修改 styles.css）
+ * 全部规则命名空间在 body.cux 下；child-ux.js 负责给 <body> 加 .cux。
+ * 若 child-ux.js 未加载，本文件一条规则都不生效，页面保持原样。
+ * 复用语工程既有 CSS 变量（--primary / --bg-soft / --radius ...），不新增配色。
+ * ========================================================================= */
+
+/* ------------------------------------------------------------------
+ * 1. 儿童端默认隐藏「复杂统计 / 测评中心 / 高级历史」
+ *    家长视图：body 加 .cux-parent 后自动恢复显示
+ * ------------------------------------------------------------------ */
+body.cux .progress-stats,
+body.cux .td-history {
+  display: none !important;
+}
+
+/* 首页：进度环下面留白收窄（统计行被隐藏后避免空洞） */
+body.cux .progress-overview {
+  padding-bottom: 8px;
+}
+
+/* ------------------------------------------------------------------
+ * 2. 首页「继续今天学习」主卡（child-ux.js 注入）
+ * ------------------------------------------------------------------ */
+body.cux .cux-hero {
+  margin: 16px 0 8px;
+  padding: 20px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: #fff;
+  box-shadow: var(--shadow-lg);
+}
+body.cux .cux-hero-hello {
+  font-size: 0.95rem;
+  opacity: 0.95;
+  margin-bottom: 12px;
+}
+body.cux .cux-hero-btn {
+  width: 100%;
+  border: none;
+  background: #fff;
+  color: var(--primary-dark);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  font-family: var(--font-cn);
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.15s;
+}
+body.cux .cux-hero-btn:active { transform: scale(0.98); }
+body.cux .cux-hero-day {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+body.cux .cux-hero-sub {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-top: 2px;
+}
+body.cux .cux-hero-steps {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+body.cux .cux-hero-chip {
+  flex: 1;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: var(--radius-sm);
+  padding: 8px 4px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+body.cux .cux-hero-chip small {
+  display: block;
+  font-weight: 400;
+  font-size: 0.68rem;
+  opacity: 0.9;
+}
+body.cux .cux-hero-chip.done {
+  background: rgba(255,255,255,0.92);
+  color: var(--success);
+}
+
+/* ------------------------------------------------------------------
+ * 3. 每日页：步骤标签上的时长小徽章（child-ux.js 注入）
+ * ------------------------------------------------------------------ */
+body.cux .step-tab .cux-dur {
+  font-size: 0.62rem;
+  font-weight: 700;
+  background: var(--border);
+  color: var(--text-light);
+  border-radius: 8px;
+  padding: 1px 6px;
+  margin-left: 2px;
+}
+body.cux .step-tab.active .cux-dur {
+  background: var(--bg-soft);
+  color: var(--primary-dark);
+}
+
+/* ------------------------------------------------------------------
+ * 4. 每日页：步骤引导条（听示范→尝试→反馈→订正→完成）+ 下一步主按钮
+ * ------------------------------------------------------------------ */
+body.cux .cux-guide {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+body.cux .cux-guide-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+body.cux .cux-guide-step {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+}
+body.cux .cux-guide-state {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-light);
+  background: var(--border);
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+body.cux .cux-guide-state.done {
+  background: var(--success);
+  color: #fff;
+}
+body.cux .cux-flow {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+body.cux .cux-flow li {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+body.cux .cux-flow li b {
+  color: var(--accent);
+  margin-right: 4px;
+}
+/* 下一步主按钮：直接复用 .footer-btn.primary 的视觉，保持全站主按钮一致 */
+body.cux .cux-next-btn {
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------
+ * 5. 家长专区入口卡片（注入 #view-settings 顶部）
+ * ------------------------------------------------------------------ */
+body.cux .cux-gate-desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin: 8px 0 12px;
+  line-height: 1.6;
+}
+body.cux .cux-gate-btn.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------
+ * 6. 通用状态横幅：空态 / 识别中 / 失败 / 已提交（child-ux.js 动态注入）
+ * ------------------------------------------------------------------ */
+body.cux .cux-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  margin: 12px 0;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+body.cux .cux-banner.info  { background: var(--bg-soft); border-color: var(--accent-light); color: var(--text); }
+body.cux .cux-banner.warn  { background: #FFF6E5; border-color: var(--warning); color: #7a5a1e; }
+body.cux .cux-banner.err   { background: #FDECEC; border-color: var(--danger);  color: #a33a3a; }
+body.cux .cux-banner.ok    { background: #EAF6EA; border-color: var(--success); color: #2f6b2f; }
+body.cux .cux-banner .cux-banner-msg { flex: 1; }
+body.cux .cux-banner .cux-banner-act {
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-cn);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  min-height: 36px;
+}
+body.cux .cux-banner .cux-banner-act:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* 全站主按钮禁用态统一（children 流程里所有 primary 按钮） */
+body.cux .footer-btn.primary:disabled,
+body.cux .cux-next-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 减少儿童端视觉噪音：首页测评/统计隐藏后，标题间距保持紧凑 */
+body.cux .day-grid-section { margin-top: 8px; }

@@ -1,0 +1,66 @@
+{
+  "day": 9,
+  "title": "A Letter to Grandma",
+  "titleCn": "给奶奶的信",
+  "source": "Original Story",
+  "sourceCn": "原创故事",
+  "level": "easy",
+  "text": "Dear Grandma, How are you? Two months passed since your last visit. I miss you very much. School is going well. I like my English class best. Last week, I won a prize in the singing contest. Mom made a big cake to celebrate. Dad took many photos. The weather here is cool and windy. Autumn is beautiful. The leaves are yellow and red. I put a small maple leaf in this envelope. I hope you like it. Please come to our home soon. We can bake cookies together and watch old movies. With love, your granddaughter, Lily.",
+  "translation": "亲爱的奶奶：您好吗？距离您上次来看我们已经过去两个月了。我非常想念您。学校一切都好，我最喜欢英语课。上周，我在歌唱比赛中得了奖。妈妈做了一个大蛋糕庆祝，爸爸拍了很多照片。这里的天气凉爽多风。秋天真美，树叶黄黄红红。我在这封信里夹了一片小枫叶，希望您喜欢。请早点来我们家吧。我们可以一起烤饼干，看老电影。爱您的孙女，莉莉。",
+  "words": [
+    {
+      "word": "miss",
+      "phonetic": "/mɪs/",
+      "pos": "v.",
+      "meaning": "想念；错过",
+      "example": "I miss my best friend."
+    },
+    {
+      "word": "prize",
+      "phonetic": "/praɪz/",
+      "pos": "n.",
+      "meaning": "奖品；奖金",
+      "example": "She won first prize in the race."
+    },
+    {
+      "word": "contest",
+      "phonetic": "/ˈkɒntest/",
+      "pos": "n.",
+      "meaning": "比赛；竞赛",
+      "example": "Our class joined a singing contest."
+    },
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈselɪbreɪt/",
+      "pos": "v.",
+      "meaning": "庆祝",
+      "example": "We celebrate birthdays with cake."
+    },
+    {
+      "word": "maple",
+      "phonetic": "/ˈmeɪpl/",
+      "pos": "n.",
+      "meaning": "枫树",
+      "example": "The maple leaves turn red in autumn."
+    },
+    {
+      "word": "bake",
+      "phonetic": "/beɪk/",
+      "pos": "v.",
+      "meaning": "烘烤；烘焙",
+      "example": "Mom bakes bread every Sunday."
+    },
+    {
+      "word": "granddaughter",
+      "phonetic": "/ˈɡrændɔːtə/",
+      "pos": "n.",
+      "meaning": "孙女；外孙女",
+      "example": "The granddaughter hugged her grandma."
+    }
+  ],
+  "dictationHints": [
+    "Two months passed since your last ______.",
+    "Last week, I won a prize in the singing ______.",
+    "I put a small maple leaf in this ______."
+  ]
+}

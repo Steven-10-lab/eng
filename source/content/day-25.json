@@ -1,0 +1,73 @@
+{
+  "day": 25,
+  "title": "The Only Thing We Have to Fear",
+  "titleCn": "我们唯一需要害怕的",
+  "source": "Inaugural Speech by Franklin D. Roosevelt (adapted for children)",
+  "sourceCn": "富兰克林·罗斯福就职演讲（为儿童改写）",
+  "level": "hard",
+  "text": "Long ago, in a cold and dark time, many people in America were afraid. Jobs were hard to find, and families worried about money. One day, a new president spoke to the whole nation by radio. His name was Franklin Roosevelt. He looked tired, but his voice was calm and strong. \"The only thing we have to fear,\" he said, \"is fear itself.\" He told the people that fear was like a cloud in the mind. It made small problems seem huge and dark. He asked them to work together, trust one another, and face the future with courage. His words reached every home. People listened, and slowly their hands stopped shaking. They began to plant, to build, and to help their neighbors again. The lesson is simple: when we are afraid, courage is not the absence of fear. It is the quiet choice to keep walking forward, hand in hand, together.",
+  "translation": "很久很久以前，在一个寒冷而黯淡的时期，美国许多人都心怀恐惧。工作很难找，家家户户都在为钱发愁。一天，一位新总统通过广播向整个国家发表讲话。他的名字叫富兰克林·罗斯福。他看上去很疲惫，但声音平静而有力。\"我们唯一需要害怕的，\"他说，\"就是害怕本身。\"他告诉人们，恐惧就像心里的一片乌云。它让小小的问题看起来又大又黑。他请大家一起努力，彼此信任，带着勇气面对未来。他的话语传到了每一个家庭。人们倾听着，他们的手慢慢不再发抖。他们又开始播种、建造，帮助邻居。道理很简单：当我们害怕的时候，勇气并不是没有恐惧，而是依然选择手拉手、一起向前走。",
+  "words": [
+    {
+      "word": "nation",
+      "phonetic": "/ˈneɪʃn/",
+      "pos": "n.",
+      "meaning": "国家；民族",
+      "example": "The whole nation celebrated the holiday."
+    },
+    {
+      "word": "calm",
+      "phonetic": "/kɑːm/",
+      "pos": "adj.",
+      "meaning": "平静的；沉着的",
+      "example": "The sea was calm this morning."
+    },
+    {
+      "word": "fear",
+      "phonetic": "/fɪə/",
+      "pos": "n.",
+      "meaning": "害怕；恐惧",
+      "example": "She could not hide her fear."
+    },
+    {
+      "word": "huge",
+      "phonetic": "/hjuːdʒ/",
+      "pos": "adj.",
+      "meaning": "巨大的；庞大的",
+      "example": "A huge elephant walked into the yard."
+    },
+    {
+      "word": "trust",
+      "phonetic": "/trʌst/",
+      "pos": "v.",
+      "meaning": "信任；信赖",
+      "example": "I trust my best friend completely."
+    },
+    {
+      "word": "courage",
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "pos": "n.",
+      "meaning": "勇气；胆量",
+      "example": "It takes courage to tell the truth."
+    },
+    {
+      "word": "shake",
+      "phonetic": "/ʃeɪk/",
+      "pos": "v.",
+      "meaning": "颤抖；摇动",
+      "example": "His hands shook in the cold."
+    },
+    {
+      "word": "absence",
+      "phonetic": "/ˈæbsəns/",
+      "pos": "n.",
+      "meaning": "缺乏；缺席",
+      "example": "His absence made everyone sad."
+    }
+  ],
+  "dictationHints": [
+    "One day, a new president spoke to the whole ______ by radio.",
+    "\"The only thing we have to fear,\" he said, \"is fear ______.\"",
+    "It is the quiet choice to keep walking forward, hand in ______, together."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "day": 1,
+  "title": "The Ant and the Grasshopper",
+  "titleCn": "蚂蚁和蚱蜢",
+  "source": "Aesop's Fables (adapted)",
+  "sourceCn": "伊索寓言（改写）",
+  "level": "easy",
+  "text": "In a field, an ant worked hard all summer. She carried food to her home, grain by grain. A grasshopper laughed. \"Why work so hard?\" he said. \"Come and sing with me.\" The ant said, \"I am storing food for winter. You should too.\" The grasshopper only laughed and hopped away. When winter came, the snow covered the field. The grasshopper had no food. He was cold and hungry. He went to the ant. \"Please give me some food,\" he said. The ant gave him a little grain. \"Remember,\" she said, \"those who work hard today will not go hungry tomorrow.\"",
+  "translation": "田野里，一只蚂蚁整个夏天都在辛勤劳作。她一粒一粒地把食物搬回家。一只蚱蜢嘲笑她：\"为什么这么辛苦？来和我一起唱歌吧。\"蚂蚁说：\"我在为冬天储存食物，你也应该这样做。\"蚱蜢只是笑着跳走了。冬天来了，大雪覆盖了田野。蚱蜢没有食物，又冷又饿。他去找蚂蚁：\"请给我一些食物吧。\"蚂蚁给了他一点粮食，说：\"记住，今天努力工作的人，明天才不会挨饿。\"",
+  "words": [
+    {
+      "word": "grasshopper",
+      "phonetic": "/ˈɡræshɒpər/",
+      "pos": "n.",
+      "meaning": "蚱蜢",
+      "example": "The grasshopper jumped high in the grass."
+    },
+    {
+      "word": "grain",
+      "phonetic": "/ɡreɪn/",
+      "pos": "n.",
+      "meaning": "谷物；一粒",
+      "example": "The bird ate a grain of rice."
+    },
+    {
+      "word": "store",
+      "phonetic": "/stɔːr/",
+      "pos": "v.",
+      "meaning": "储存；储藏",
+      "example": "Squirrels store nuts for the winter."
+    },
+    {
+      "word": "hop",
+      "phonetic": "/hɒp/",
+      "pos": "v.",
+      "meaning": "跳跃；单脚跳",
+      "example": "The rabbit hopped across the road."
+    },
+    {
+      "word": "hungry",
+      "phonetic": "/ˈhʌŋɡri/",
+      "pos": "adj.",
+      "meaning": "饥饿的",
+      "example": "I am hungry. Let's have lunch."
+    },
+    {
+      "word": "field",
+      "phonetic": "/fiːld/",
+      "pos": "n.",
+      "meaning": "田野；场地",
+      "example": "Cows are eating grass in the field."
+    }
+  ],
+  "dictationHints": [
+    "In a field, an ant worked hard all ______.",
+    "She carried food to her home, grain by ______.",
+    "When winter came, the ______ covered the field."
+  ]
+}

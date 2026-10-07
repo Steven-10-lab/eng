@@ -1,0 +1,73 @@
+{
+  "day": 21,
+  "title": "The Power of a Seed",
+  "titleCn": "一粒种子的力量",
+  "source": "Nature Essay (inspired by classic nature writing)",
+  "sourceCn": "自然散文（灵感源自经典自然文学）",
+  "level": "hard",
+  "text": "Beneath the ground, a tiny seed waited through the long winter. It did not know what it would become. It only knew that it must grow. When the spring rains came, the seed drank deeply. Its shell broke open, and a small root pushed down into the dark earth. Above the soil, a green shoot reached toward the light. At first, the seedling was weak. A passing snail almost ate it. A heavy rain nearly bent it in two. But the little plant held on. Each day, it grew a little taller. Its leaves opened wider to catch the sun. Years passed. The seed had become a great tree. Its branches gave shade to travelers. Its fruit fed birds and children. Its roots held the soil together when the rivers rose. People sat under it and said, \"What a strong tree!\" But the tree remembered. It had once been a tiny seed, alone in the dark. It had never given up. And that, perhaps, is the greatest power of all.",
+  "translation": "地下，一粒小小的种子度过了漫长的冬天。它不知道自己将变成什么，只知道必须生长。春雨来临时，种子尽情地吮吸水分。它的外壳裂开，一条小根扎进黑暗的泥土。地面上，一株绿芽朝着阳光伸展。起初，幼苗很柔弱。一只路过的蜗牛差点把它吃掉，一场大雨几乎把它折断。但小植物坚持住了。每一天，它都长高一点，叶子张得更开去捕捉阳光。岁月流逝，种子长成了一棵大树。它的枝叶为旅人遮阴，果实喂养了鸟儿和孩子，河水上涨时它的根紧紧抓住土壤。人们坐在树下说：\"多么强壮的树啊！\"但树记得，它曾经只是一粒小小的种子，独自在黑暗中。它从未放弃。而这，也许就是最伟大的力量。",
+  "words": [
+    {
+      "word": "beneath",
+      "phonetic": "/bɪˈniːθ/",
+      "pos": "prep.",
+      "meaning": "在……之下",
+      "example": "The cat slept beneath the table."
+    },
+    {
+      "word": "root",
+      "phonetic": "/ruːt/",
+      "pos": "n.",
+      "meaning": "根；根部",
+      "example": "The tree's roots go deep into the ground."
+    },
+    {
+      "word": "shoot",
+      "phonetic": "/ʃuːt/",
+      "pos": "n.",
+      "meaning": "嫩芽；幼苗",
+      "example": "The first green shoot appeared in spring."
+    },
+    {
+      "word": "seedling",
+      "phonetic": "/ˈsiːdlɪŋ/",
+      "pos": "n.",
+      "meaning": "幼苗；树苗",
+      "example": "We planted seedlings in the garden."
+    },
+    {
+      "word": "snail",
+      "phonetic": "/sneɪl/",
+      "pos": "n.",
+      "meaning": "蜗牛",
+      "example": "A snail moves slowly across the leaf."
+    },
+    {
+      "word": "branch",
+      "phonetic": "/bræntʃ/",
+      "pos": "n.",
+      "meaning": "树枝；分支",
+      "example": "The bird built a nest on a high branch."
+    },
+    {
+      "word": "shade",
+      "phonetic": "/ʃeɪd/",
+      "pos": "n.",
+      "meaning": "阴凉处；树荫",
+      "example": "We rested in the shade of the tree."
+    },
+    {
+      "word": "perhaps",
+      "phonetic": "/pərˈhæps/",
+      "pos": "adv.",
+      "meaning": "也许；可能",
+      "example": "Perhaps it will rain tomorrow."
+    }
+  ],
+  "dictationHints": [
+    "Beneath the ground, a tiny ______ waited through the long winter.",
+    "Its shell broke open, and a small ______ pushed down into the dark earth.",
+    "Its ______ held the soil together when the rivers rose."
+  ]
+}

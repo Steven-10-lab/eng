@@ -1,0 +1,66 @@
+{
+  "day": 2,
+  "title": "The Tortoise and the Hare",
+  "titleCn": "龟兔赛跑",
+  "source": "Aesop's Fables (adapted)",
+  "sourceCn": "伊索寓言（改写）",
+  "level": "easy",
+  "text": "One day, a hare laughed at a slow tortoise. \"You walk so slowly!\" he said. The tortoise smiled. \"Let us run a race,\" he said. The hare ran very fast. He was soon far ahead. The sun was warm. He thought, \"I can sleep under this tree. The tortoise is too slow.\" So he slept. The tortoise walked and walked, step by step. At last, he came to the finish line. The hare woke up and ran fast, but it was too late. The tortoise won. Slow and steady wins the race.",
+  "translation": "一天，一只野兔嘲笑一只慢吞吞的乌龟。\"你走得太慢啦！\"他说。乌龟笑了笑：\"我们来赛跑吧。\"野兔跑得飞快，一下子就跑到了前面。阳光暖洋洋的，他心想：\"我可以在这棵树下睡一觉，乌龟太慢了。\"于是他睡着了。乌龟一步一步地走啊走，终于走到了终点线。野兔醒来拼命跑，可是已经太晚了。乌龟赢了。稳扎稳打者终会获胜。",
+  "words": [
+    {
+      "word": "tortoise",
+      "phonetic": "/ˈtɔːtəs/",
+      "pos": "n.",
+      "meaning": "乌龟",
+      "example": "The tortoise walks slowly but never stops."
+    },
+    {
+      "word": "hare",
+      "phonetic": "/heər/",
+      "pos": "n.",
+      "meaning": "野兔",
+      "example": "The hare ran fast into the bushes."
+    },
+    {
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "pos": "n.",
+      "meaning": "赛跑；比赛",
+      "example": "We had a race on the playground."
+    },
+    {
+      "word": "slowly",
+      "phonetic": "/ˈsləʊli/",
+      "pos": "adv.",
+      "meaning": "缓慢地",
+      "example": "The old man walked slowly across the street."
+    },
+    {
+      "word": "ahead",
+      "phonetic": "/əˈhed/",
+      "pos": "adv.",
+      "meaning": "在前面；向前",
+      "example": "Our school is just ahead."
+    },
+    {
+      "word": "steady",
+      "phonetic": "/ˈstedi/",
+      "pos": "adj.",
+      "meaning": "稳的；稳步的",
+      "example": "Keep a steady pace and you will finish."
+    },
+    {
+      "word": "finish",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "pos": "n.",
+      "meaning": "终点；结束",
+      "example": "He was first to cross the finish line."
+    }
+  ],
+  "dictationHints": [
+    "The tortoise smiled. Let us run a ______.",
+    "The hare ran very fast. He was soon far ______.",
+    "Slow and ______ wins the race."
+  ]
+}

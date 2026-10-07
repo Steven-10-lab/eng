@@ -1,0 +1,66 @@
+{
+  "day": 20,
+  "title": "If — A Father's Words",
+  "titleCn": "如果——一位父亲的话",
+  "source": "Rudyard Kipling's poem \"If—\" (prose adaptation)",
+  "sourceCn": "拉迪亚德·吉卜林诗歌《如果》（散文改写）",
+  "level": "medium",
+  "text": "When Rudyard Kipling wrote his poem \"If\", he wanted to teach his son how to be a strong and good person. The poem is like a conversation between a father and a child. It says that you should keep calm when others are losing their heads. It says that you should dream without letting dreams become your master. It says that you should meet with triumph and disaster, and treat those two visitors in the same way. You must be able to work hard and to wait patiently. You must be kind when people hate you, and believe in yourself. If you can do all these things, the father says, then you will be a man. The poem does not tell a story, but it teaches a way of living. Many readers keep it in their hearts today.",
+  "translation": "当拉迪亚德·吉卜林写下他的诗《如果》时，他想教儿子如何成为一个坚强而善良的人。这首诗就像一场父亲与孩子之间的对话。它说，当其他人都慌乱失控时，你要保持冷静。它说，你可以拥有梦想，但不要让梦想主宰你。它说，你要迎接胜利和挫折，并以同样的方式对待这两位访客。你必须既能努力工作，又能耐心等待。当别人憎恨你时，你依然要善良，并相信自己。父亲说，如果你能做到这一切，你就成为了真正的人。这首诗没有讲述故事，却教给我们一种生活的方式。直到今天，许多读者仍把它铭记于心。",
+  "words": [
+    {
+      "word": "poem",
+      "phonetic": "/ˈpəʊɪm/",
+      "pos": "n.",
+      "meaning": "诗；诗歌",
+      "example": "The student learned a short poem by heart."
+    },
+    {
+      "word": "conversation",
+      "phonetic": "/ˌkɒnvərˈseɪʃn/",
+      "pos": "n.",
+      "meaning": "谈话；对话",
+      "example": "We had a long conversation about our dreams."
+    },
+    {
+      "word": "calm",
+      "phonetic": "/kɑːm/",
+      "pos": "adj.",
+      "meaning": "冷静的；平静的",
+      "example": "Stay calm and tell me what happened."
+    },
+    {
+      "word": "triumph",
+      "phonetic": "/ˈtraɪʌmf/",
+      "pos": "n.",
+      "meaning": "胜利；凯旋",
+      "example": "The team raised the cup in triumph."
+    },
+    {
+      "word": "disaster",
+      "phonetic": "/dɪˈzɑːstər/",
+      "pos": "n.",
+      "meaning": "灾难；不幸",
+      "example": "The flood was a terrible disaster for the town."
+    },
+    {
+      "word": "patiently",
+      "phonetic": "/ˈpeɪʃntli/",
+      "pos": "adv.",
+      "meaning": "耐心地",
+      "example": "The teacher waited patiently for the answer."
+    },
+    {
+      "word": "reader",
+      "phonetic": "/ˈriːdər/",
+      "pos": "n.",
+      "meaning": "读者",
+      "example": "The book has millions of readers around the world."
+    }
+  ],
+  "dictationHints": [
+    "You should keep ______ when others are losing their heads.",
+    "You should meet with triumph and ______ in the same way.",
+    "You must be able to work hard and to wait ______."
+  ]
+}

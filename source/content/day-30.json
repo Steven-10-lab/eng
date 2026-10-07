@@ -1,0 +1,73 @@
+{
+  "day": 30,
+  "title": "You Must Be the Change",
+  "titleCn": "成为你想看到的改变",
+  "source": "Words of Mahatma Gandhi (adapted for children)",
+  "sourceCn": "甘地的话（为儿童改写）",
+  "level": "hard",
+  "text": "Many years ago, in a far country, a small man with round glasses walked the roads of India. His name was Mahatma Gandhi. He wore simple cloth and ate only a little rice. Yet millions of people listened when he spoke. He believed that a good world must begin in our own hearts. He often said, \"You must be the change you wish to see in the world.\" What does that mean? It means that if we want a kinder world, we must be kind first. If we want peace, we must stop fighting with our friends. We cannot wait for someone else to fix everything. Gandhi taught people to march together, to speak softly, and never to hurt others, even when they were angry. His quiet courage moved a nation. Think of these thirty days. You have read stories, words, and ideas from many lands. You have grown, quietly, one small step at a time. Keep going. The change you are waiting for is already growing inside you.",
+  "translation": "许多年前，在一个遥远的国度，一个戴圆眼镜的小个子男人走在印度的路上。他的名字叫圣雄甘地。他穿着朴素的布衣，只吃一点点米饭。然而，当他讲话时，数百万的人都在倾听。他相信，一个美好的世界必须从我们自己的心中开始。他常说：\"你必须成为你希望在这世界上看到的改变。\"这是什么意思呢？意思是，如果我们想要一个更友善的世界，我们自己必须先友善。如果我们想要和平，就必须停止和朋友争吵。我们不能等着别人来解决一切。甘地教导人们一起前行，轻声说话，即使生气也绝不伤害他人。他那份安静的勇气，感动了一个国家。回想这三十天吧。你读过了来自许多国度的故事、单词和思想。你已经悄悄长大了，一次一小步。继续往前走吧。你所期待的改变，其实早已在你心里生长。",
+  "words": [
+    {
+      "word": "believe",
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "meaning": "相信；认为",
+      "example": "I believe you can do it."
+    },
+    {
+      "word": "change",
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "n.",
+      "meaning": "改变；变化",
+      "example": "Change is not always easy."
+    },
+    {
+      "word": "peace",
+      "phonetic": "/piːs/",
+      "pos": "n.",
+      "meaning": "和平；平静",
+      "example": "All people hope for peace."
+    },
+    {
+      "word": "march",
+      "phonetic": "/mɑːtʃ/",
+      "pos": "v.",
+      "meaning": "行进；游行",
+      "example": "The soldiers marched down the street."
+    },
+    {
+      "word": "courage",
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "pos": "n.",
+      "meaning": "勇气；胆量",
+      "example": "She had the courage to try again."
+    },
+    {
+      "word": "journey",
+      "phonetic": "/ˈdʒɜːni/",
+      "pos": "n.",
+      "meaning": "旅程；历程",
+      "example": "Learning English is a long journey."
+    },
+    {
+      "word": "grow",
+      "phonetic": "/ɡrəʊ/",
+      "pos": "v.",
+      "meaning": "成长；生长",
+      "example": "Children grow fast in spring."
+    },
+    {
+      "word": "step",
+      "phonetic": "/step/",
+      "pos": "n.",
+      "meaning": "步；步骤",
+      "example": "Walk one step at a time."
+    }
+  ],
+  "dictationHints": [
+    "He ______ that a good world must begin in our own hearts.",
+    "\"You must be the ______ you wish to see in the world.\"",
+    "You have grown, quietly, one small ______ at a time."
+  ]
+}

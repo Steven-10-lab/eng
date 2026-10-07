@@ -1,0 +1,105 @@
+/* parent-dashboard.css — 全部 scoped 到 .pd-* 前缀 */
+
+.pd-mask {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999;
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.pd-gate, .pd-root {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.25);
+  width: min(720px, 92vw);
+  max-height: 88vh;
+  overflow: auto;
+  padding: 20px 22px;
+  box-sizing: border-box;
+}
+
+.pd-gate { width: min(360px, 90vw); padding: 26px 22px; text-align: center; }
+
+.pd-title { margin: 0 0 8px; font-size: 18px; color: #222; }
+.pd-notice { font-size: 12px; color: #888; margin: 0 0 14px; line-height: 1.5; }
+.pd-notice b { color: #b5651d; }
+
+.pd-pw {
+  width: 100%; box-sizing: border-box; padding: 10px 12px;
+  border: 1px solid #ccc; border-radius: 8px; font-size: 15px;
+  outline: none;
+}
+.pd-pw:focus { border-color: #4a90e2; }
+.pd-err { color: #d33; font-size: 12px; min-height: 18px; margin-top: 6px; }
+
+.pd-actions, .pd-hdr-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; }
+.pd-gate .pd-actions { justify-content: center; }
+
+.pd-btn {
+  padding: 8px 16px; border: 1px solid #ccc; background: #fff;
+  border-radius: 8px; cursor: pointer; font-size: 14px;
+}
+.pd-btn:hover { background: #f5f5f5; }
+.pd-primary { background: #4a90e2; color: #fff; border-color: #4a90e2; }
+.pd-primary:hover { background: #3a7bc8; }
+.pd-reset { color: #d33; border-color: #e8b4b4; }
+.pd-reset:hover { background: #fdecec; }
+
+.pd-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+
+.pd-exam {
+  display: flex; gap: 12px; margin: 10px 0 14px;
+  background: #f7f9fc; border-radius: 8px; padding: 10px 14px;
+}
+.pd-exam-item { flex: 1; display: flex; justify-content: space-between; font-size: 14px; }
+.pd-exam-label { color: #666; }
+.pd-exam-val { font-weight: 600; color: #222; }
+
+.pd-toggle { display: inline-flex; gap: 0; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; }
+.pd-tg { padding: 6px 16px; border: none; background: #fff; cursor: pointer; font-size: 13px; }
+.pd-tg.on { background: #4a90e2; color: #fff; }
+
+.pd-days {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+}
+@media (max-width: 520px) { .pd-days { grid-template-columns: repeat(5, 1fr); } }
+
+.pd-day {
+  border: 1px solid #e2e2e2; border-radius: 8px;
+  padding: 8px 6px; text-align: center; cursor: pointer;
+  background: #fafafa;
+}
+.pd-day:hover { background: #f0f4fa; }
+.pd-day.sel { border-color: #4a90e2; background: #eaf2fc; }
+.pd-day.has { background: #fff; }
+.pd-day-num { font-size: 12px; color: #666; }
+.pd-day-stat { font-size: 13px; font-weight: 600; color: #333; margin-top: 2px; }
+.pd-day:not(.has) .pd-day-stat { color: #aaa; font-weight: 400; }
+
+.pd-detail { margin-top: 16px; }
+.pd-dt-title { margin: 0 0 8px; font-size: 15px; color: #333; }
+.pd-dt-empty { color: #999; font-size: 13px; padding: 10px 0; }
+
+.pd-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.pd-table th, .pd-table td { padding: 6px 8px; border-bottom: 1px solid #eee; text-align: center; }
+.pd-table th { background: #f5f7fa; color: #555; font-weight: 500; }
+.pd-table tbody tr { cursor: pointer; }
+.pd-table tbody tr:hover { background: #f5f9ff; }
+.pd-table tbody tr.sel { background: #eaf2fc; }
+.pd-table td:first-child { text-align: left; }
+
+.pd-mod-dt {
+  margin-top: 10px; padding: 10px 12px; background: #fafbfd;
+  border-radius: 8px; font-size: 13px;
+}
+.pd-mod-dt h4 { margin: 0 0 6px; font-size: 13px; color: #444; }
+.pd-wl, .pd-sl { margin: 4px 0; line-height: 1.5; }
+.pd-times { margin: 8px 0 0; padding-left: 18px; color: #555; }
+.pd-times li { margin: 2px 0; }
+.pd-tag {
+  display: inline-block; background: #fff3e0; color: #b5651d;
+  font-size: 11px; padding: 0 4px; border-radius: 4px; margin-left: 4px;
+}

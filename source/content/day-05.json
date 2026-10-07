@@ -1,0 +1,73 @@
+{
+  "day": 5,
+  "title": "The Ugly Duckling",
+  "titleCn": "丑小鸭",
+  "source": "Hans Christian Andersen (adapted)",
+  "sourceCn": "安徒生童话（改写）",
+  "level": "easy",
+  "text": "A mother duck sat on her eggs. One by one, the eggs opened. Six little yellow ducklings came out. The last duckling was big and grey. He looked different. \"You are so ugly!\" said the other ducklings. They laughed at him and ran away. The ugly duckling was sad. He left the farm and lived alone. Winter came, and he was cold. Spring came again. One day, he looked into the water. He saw a beautiful white bird, a swan. He was not an ugly duckling at all! He had grown into a swan. Never judge yourself too early. One day, you may shine.",
+  "translation": "鸭妈妈坐在她的蛋上。蛋一个接一个地裂开，六只黄色的小鸭子钻了出来。最后一只小鸭子又大又灰，长得与众不同。\"你真丑！\"其他小鸭子说。他们嘲笑他，然后跑开了。丑小鸭很难过。他离开了农场，独自生活。冬天来了，他又冷又孤单。春天再次到来。一天，他低头看向水里，看到了一只美丽的白鸟——一只天鹅。他根本不是一只丑小鸭！他已经长成了一只天鹅。不要过早地评判自己，总有一天你会绽放光芒。",
+  "words": [
+    {
+      "word": "ugly",
+      "phonetic": "/ˈʌɡli/",
+      "pos": "adj.",
+      "meaning": "丑的；难看的",
+      "example": "The ugly duckling became a swan."
+    },
+    {
+      "word": "duckling",
+      "phonetic": "/ˈdʌklɪŋ/",
+      "pos": "n.",
+      "meaning": "小鸭子",
+      "example": "The ducklings followed their mother."
+    },
+    {
+      "word": "grey",
+      "phonetic": "/ɡreɪ/",
+      "pos": "adj.",
+      "meaning": "灰色的",
+      "example": "He wore a grey coat."
+    },
+    {
+      "word": "alone",
+      "phonetic": "/əˈləʊn/",
+      "pos": "adv.",
+      "meaning": "独自地",
+      "example": "She lives alone in a small house."
+    },
+    {
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "pos": "n.",
+      "meaning": "农场",
+      "example": "There are many cows on the farm."
+    },
+    {
+      "word": "swan",
+      "phonetic": "/swɒn/",
+      "pos": "n.",
+      "meaning": "天鹅",
+      "example": "The swan swam on the lake."
+    },
+    {
+      "word": "judge",
+      "phonetic": "/dʒʌdʒ/",
+      "pos": "v.",
+      "meaning": "评判；判断",
+      "example": "Do not judge a book by its cover."
+    },
+    {
+      "word": "shine",
+      "phonetic": "/ʃaɪn/",
+      "pos": "v.",
+      "meaning": "发光；闪耀",
+      "example": "The stars shine at night."
+    }
+  ],
+  "dictationHints": [
+    "You are so ______! said the other ducklings.",
+    "He left the farm and lived ______.",
+    "He saw a beautiful white bird, a ______."
+  ]
+}

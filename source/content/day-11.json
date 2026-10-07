@@ -1,0 +1,66 @@
+{
+  "day": 11,
+  "title": "The Little Match Girl",
+  "titleCn": "卖火柴的小女孩",
+  "source": "Hans Christian Andersen (adapted)",
+  "sourceCn": "安徒生童话（改写）",
+  "level": "medium",
+  "text": "It was New Year's Eve, and snow was falling. A little girl walked the streets, selling matches. She had no shoes; her feet were red with cold. No one bought any all day. She was afraid to go home because her father would beat her. She sat in a corner. She lit one match to warm her hands. In the flame, she saw a warm stove. She lit another match. Then she saw a table of delicious food. Then she saw her grandmother, who was kind and loving. \"Take me with you!\" cried the girl. She lit all the matches to keep her grandmother near. The next morning, people found her in the snow. She was smiling, but had died in the cold night. They said she wanted warmth. No one knew the beautiful dreams she had seen.",
+  "translation": "那是新年前夜，雪花纷纷扬扬。一个小女孩走在街上卖火柴。她没有穿鞋，脚冻得通红。她手里拿着一盒火柴，一整天都没有人买。她不敢回家，因为爸爸会打她。她在两栋房子之间的角落里坐下来，点燃一根火柴暖手。火光中，她看到了一个温暖的火炉。她又点燃一根，这次看到了一张摆满美味食物的桌子。接着她看到了慈祥的奶奶。\"带我走吧！\"小女孩喊道。她点燃了所有的火柴，想让奶奶留在身边。第二天早上，人们在雪地里发现了小女孩。她面带微笑，却已经在寒冷的夜里死去了。有人说：\"她想暖暖自己。\"没有人知道她曾看到过多么美丽的梦。",
+  "words": [
+    {
+      "word": "match",
+      "phonetic": "/mætʃ/",
+      "pos": "n.",
+      "meaning": "火柴",
+      "example": "He lit a match to see in the dark."
+    },
+    {
+      "word": "flame",
+      "phonetic": "/fleɪm/",
+      "pos": "n.",
+      "meaning": "火焰；火苗",
+      "example": "The flame of the candle danced in the wind."
+    },
+    {
+      "word": "stove",
+      "phonetic": "/stəʊv/",
+      "pos": "n.",
+      "meaning": "炉子；火炉",
+      "example": "Mother is cooking on the stove."
+    },
+    {
+      "word": "delicious",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "pos": "adj.",
+      "meaning": "美味的；可口的",
+      "example": "This cake is delicious. May I have another piece?"
+    },
+    {
+      "word": "grandmother",
+      "phonetic": "/ˈɡrænmʌðər/",
+      "pos": "n.",
+      "meaning": "祖母；外祖母",
+      "example": "My grandmother tells me stories every night."
+    },
+    {
+      "word": "corner",
+      "phonetic": "/ˈkɔːrnər/",
+      "pos": "n.",
+      "meaning": "角落；拐角",
+      "example": "The cat is sleeping in the corner of the room."
+    },
+    {
+      "word": "afraid",
+      "phonetic": "/əˈfreɪd/",
+      "pos": "adj.",
+      "meaning": "害怕的；担心的",
+      "example": "Don't be afraid of the dark."
+    }
+  ],
+  "dictationHints": [
+    "It was New Year's Eve, and ______ was falling.",
+    "She lit one match to ______ her hands.",
+    "She saw her ______, who was kind and loving."
+  ]
+}

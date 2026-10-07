@@ -1,0 +1,73 @@
+{
+  "day": 28,
+  "title": "Marie Curie and the Light of Science",
+  "titleCn": "居里夫人和科学之光",
+  "source": "Life of Marie Curie (adapted)",
+  "sourceCn": "居里夫人的生平（改写）",
+  "level": "hard",
+  "text": "Marie Curie was born in Poland, at a time when girls were not encouraged to study. Yet she loved books more than anything. She worked as a teacher and saved every coin so that she could go to Paris. There, she studied science in a cold room, often without enough food or heat. She and her husband Pierre began to study a strange dark material. They worked for years in an old shed, day after day, until one evening they saw a weak blue light shining from the test tubes. It was radium, a new element that no one had ever seen. Marie became the first woman to win a Nobel Prize, and later she won a second one. She used her discovery to help doctors heal the sick. She once said that nothing in life is to be feared; it is only to be understood. Her light still shines for every child who dares to ask a question.",
+  "translation": "玛丽·居里出生在波兰，那是一个并不鼓励女孩读书的时代。然而她最爱书。她当老师，把每一枚硬币都存起来，好去巴黎求学。在那里，她在一间寒冷的屋子里研究科学，常常吃不饱、也没有足够的暖气。她和丈夫皮埃尔开始研究一种奇怪的黑色物质。他们日复一日，在一间旧棚屋里工作了许多年，直到一天傍晚，他们看见试管里透出一束微弱的蓝光。那就是镭——一种从未有人见过的新元素。玛丽成为第一位获得诺贝尔奖的女性，后来她又第二次获奖。她把自己的发现用来帮助医生治愈病人。她曾说，生活中没有什么值得害怕，只有需要去理解的事物。她的光，依然照亮着每一个敢于提问的孩子。",
+  "words": [
+    {
+      "word": "encourage",
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "pos": "v.",
+      "meaning": "鼓励；激励",
+      "example": "My teacher encourages me to read more."
+    },
+    {
+      "word": "material",
+      "phonetic": "/məˈtɪəriəl/",
+      "pos": "n.",
+      "meaning": "材料；物质",
+      "example": "Wood is a common building material."
+    },
+    {
+      "word": "shed",
+      "phonetic": "/ʃed/",
+      "pos": "n.",
+      "meaning": "棚屋；小屋",
+      "example": "We keep tools in the garden shed."
+    },
+    {
+      "word": "radium",
+      "phonetic": "/ˈreɪdiəm/",
+      "pos": "n.",
+      "meaning": "镭（化学元素）",
+      "example": "Marie Curie discovered radium."
+    },
+    {
+      "word": "element",
+      "phonetic": "/ˈelɪmənt/",
+      "pos": "n.",
+      "meaning": "元素；要素",
+      "example": "Oxygen is an important element for life."
+    },
+    {
+      "word": "discovery",
+      "phonetic": "/dɪˈskʌvəri/",
+      "pos": "n.",
+      "meaning": "发现；发觉",
+      "example": "Scientists made a great discovery."
+    },
+    {
+      "word": "heal",
+      "phonetic": "/hiːl/",
+      "pos": "v.",
+      "meaning": "治愈；愈合",
+      "example": "The medicine helped heal the cut."
+    },
+    {
+      "word": "dare",
+      "phonetic": "/deə/",
+      "pos": "v.",
+      "meaning": "敢；敢于",
+      "example": "She dared to climb the tall tree."
+    }
+  ],
+  "dictationHints": [
+    "Marie Curie was born in Poland, at a time when girls were not ______ to study.",
+    "They worked for years in an old ______, day after day.",
+    "Her light still shines for every child who ______ to ask a question."
+  ]
+}

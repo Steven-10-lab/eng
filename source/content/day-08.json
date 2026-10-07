@@ -1,0 +1,66 @@
+{
+  "day": 8,
+  "title": "The Water Cycle",
+  "titleCn": "水循环",
+  "source": "Nature Science Essay (adapted)",
+  "sourceCn": "自然科普散文（改写）",
+  "level": "easy",
+  "text": "Water is all around us. It is in rivers, lakes, and seas. The sun shines on the water. The water gets warm and rises into the sky. We call this evaporation. High in the sky, the air is cold. The warm water meets the cold air and becomes little clouds. The clouds grow heavy and dark. Then the water falls down as rain or snow. It runs into rivers and lakes again. The rivers carry the water back to the sea. This long journey is called the water cycle. It has no end. The same water travels again and again. Saving water is important for everyone.",
+  "translation": "水就在我们身边。它存在于河流、湖泊和海洋里。太阳照在水面上，水变热，上升到天空中。我们把这个过程叫做蒸发。在高空，空气很冷。温暖的水汽遇冷，变成一朵朵小云。云变得又沉又黑，然后水以雨或雪的形式落下来。它又流入河流和湖泊。河流把水带回大海。这段漫长的旅程叫做水循环。它没有尽头。同样的水一遍又一遍地循环旅行。节约用水对每个人都很重要。",
+  "words": [
+    {
+      "word": "rise",
+      "phonetic": "/raɪz/",
+      "pos": "v.",
+      "meaning": "上升；升起",
+      "example": "The sun rises in the east."
+    },
+    {
+      "word": "evaporation",
+      "phonetic": "/ɪˌvæpəˈreɪʃn/",
+      "pos": "n.",
+      "meaning": "蒸发",
+      "example": "Evaporation makes water turn into vapor."
+    },
+    {
+      "word": "cloud",
+      "phonetic": "/klaʊd/",
+      "pos": "n.",
+      "meaning": "云",
+      "example": "The white clouds look like cotton."
+    },
+    {
+      "word": "heavy",
+      "phonetic": "/ˈhevi/",
+      "pos": "adj.",
+      "meaning": "重的",
+      "example": "This box is too heavy for me."
+    },
+    {
+      "word": "journey",
+      "phonetic": "/ˈdʒɜːni/",
+      "pos": "n.",
+      "meaning": "旅程",
+      "example": "The long journey made us tired."
+    },
+    {
+      "word": "cycle",
+      "phonetic": "/ˈsaɪkl/",
+      "pos": "n.",
+      "meaning": "循环；周期",
+      "example": "The water cycle never stops."
+    },
+    {
+      "word": "save",
+      "phonetic": "/seɪv/",
+      "pos": "v.",
+      "meaning": "节约；拯救",
+      "example": "Please save water when you wash hands."
+    }
+  ],
+  "dictationHints": [
+    "The water gets warm and ______ into the sky.",
+    "The clouds grow heavy and ______.",
+    "This long journey is called the water ______."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "day": 16,
+  "title": "I Have a Dream",
+  "titleCn": "我有一个梦想",
+  "source": "Martin Luther King Jr. speech (children's adaptation)",
+  "sourceCn": "马丁·路德·金演讲（儿童改写版）",
+  "level": "medium",
+  "text": "Many years ago, black people and white people did not always live together in peace. Some children could not go to the same schools, and some families could not sit together on buses. A brave leader named Martin Luther King wanted to change this. He believed that every person should be treated with love and fairness, no matter what colour their skin was. One day, he stood before a huge crowd and spoke in a loud, strong voice. \"I have a dream,\" he said. \"I dream that one day, children of all colours will play together as friends. I dream that people will be kind to one another.\" His words gave hope to millions. Even today, we remember his dream. It teaches us that peace, fairness, and friendship are worth working for.",
+  "translation": "许多年前，黑人和白人并不总是和平相处。有些孩子不能上同一所学校，有些家庭不能在公共汽车上坐在一起。一位名叫马丁·路德·金的勇敢领袖想改变这一切。他相信，无论肤色如何，每个人都应该被爱和公平地对待。有一天，他站在一大群人面前，用洪亮而坚定的声音演讲。\"我有一个梦想，\"他说，\"我梦想有一天，不同肤色的孩子能像朋友一样一起玩耍。我梦想人们彼此友善。\"他的话语给了数百万人希望。即使在今天，我们依然记得他的梦想。它告诉我们，和平、公平和友谊值得我们为之努力。",
+  "words": [
+    {
+      "word": "peace",
+      "phonetic": "/piːs/",
+      "pos": "n.",
+      "meaning": "和平；安宁",
+      "example": "All people hope to live in peace."
+    },
+    {
+      "word": "fairness",
+      "phonetic": "/ˈfernəs/",
+      "pos": "n.",
+      "meaning": "公平；公正",
+      "example": "The children learned about fairness in the game."
+    },
+    {
+      "word": "skin",
+      "phonetic": "/skɪn/",
+      "pos": "n.",
+      "meaning": "皮肤",
+      "example": "Babies have very soft skin."
+    },
+    {
+      "word": "crowd",
+      "phonetic": "/kraʊd/",
+      "pos": "n.",
+      "meaning": "人群；群众",
+      "example": "A large crowd waited to see the singer."
+    },
+    {
+      "word": "dream",
+      "phonetic": "/driːm/",
+      "pos": "n.",
+      "meaning": "梦想；梦",
+      "example": "Her dream is to become a doctor."
+    },
+    {
+      "word": "hope",
+      "phonetic": "/hoʊp/",
+      "pos": "n.",
+      "meaning": "希望；期望",
+      "example": "There is hope for a better tomorrow."
+    },
+    {
+      "word": "million",
+      "phonetic": "/ˈmɪljən/",
+      "pos": "n.",
+      "meaning": "百万",
+      "example": "The city has two million people."
+    }
+  ],
+  "dictationHints": [
+    "Black people and white people did not always live together in ______.",
+    "He stood before a huge ______ and spoke in a loud voice.",
+    "His words gave ______ to millions."
+  ]
+}

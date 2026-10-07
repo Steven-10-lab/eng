@@ -1,0 +1,59 @@
+{
+  "day": 3,
+  "title": "A Loyal Friend",
+  "titleCn": "忠诚的朋友",
+  "source": "Original Story",
+  "sourceCn": "原创故事",
+  "level": "easy",
+  "text": "Lucky was a small brown dog. He lived with a kind old man. The old man gave him food and a warm bed. Lucky loved him very much. One day, the old man took Lucky to the park. He sat under a big tree and fell asleep. Some people walked by, but Lucky did not move. He sat next to the old man and watched. When a stranger came near, Lucky stood up and barked loudly. The old man woke up and smiled. He patted Lucky. \"You are a good and loyal friend,\" he said. Dogs are our best friends. They love us and stay with us.",
+  "translation": "Lucky 是一只棕色的小狗。他和一位善良的老人住在一起。老人给他食物和一张温暖的小床。Lucky 非常爱他。一天，老人带 Lucky 去公园。他坐在一棵大树下睡着了。一些人走过，但 Lucky 一动不动。他坐在老人旁边守着。当一个陌生人走近时，Lucky 站起来大声吠叫。老人醒来，笑了。他拍了拍 Lucky：\"你是一个忠诚的好朋友。\"狗是我们最好的朋友，他们爱我们，陪伴我们。",
+  "words": [
+    {
+      "word": "loyal",
+      "phonetic": "/ˈlɔɪəl/",
+      "pos": "adj.",
+      "meaning": "忠诚的",
+      "example": "Dogs are loyal to their owners."
+    },
+    {
+      "word": "park",
+      "phonetic": "/pɑːk/",
+      "pos": "n.",
+      "meaning": "公园",
+      "example": "We play football in the park."
+    },
+    {
+      "word": "asleep",
+      "phonetic": "/əˈsliːp/",
+      "pos": "adj.",
+      "meaning": "睡着的",
+      "example": "The baby is asleep in the room."
+    },
+    {
+      "word": "stranger",
+      "phonetic": "/ˈstreɪndʒər/",
+      "pos": "n.",
+      "meaning": "陌生人",
+      "example": "Do not open the door for a stranger."
+    },
+    {
+      "word": "bark",
+      "phonetic": "/bɑːk/",
+      "pos": "v.",
+      "meaning": "（狗）吠叫",
+      "example": "The dog barked at the mailman."
+    },
+    {
+      "word": "pat",
+      "phonetic": "/pæt/",
+      "pos": "v.",
+      "meaning": "轻拍",
+      "example": "She patted the cat gently."
+    }
+  ],
+  "dictationHints": [
+    "One day, the old man took Lucky to the ______.",
+    "When a stranger came near, Lucky stood up and ______ loudly.",
+    "You are a good and ______ friend."
+  ]
+}

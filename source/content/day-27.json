@@ -1,0 +1,73 @@
+{
+  "day": 27,
+  "title": "Christmas Around the World",
+  "titleCn": "世界各地的圣诞节",
+  "source": "Festival and Culture Essay",
+  "sourceCn": "节日与文化散文",
+  "level": "hard",
+  "text": "Christmas is one of the brightest festivals on Earth, but people celebrate it in very different ways. In America, families put up a green tree and hang little lights and stars on its branches. Children leave cookies for Santa and wake up early to find gifts. In Mexico, people sing in the streets and hold colorful candles at night. They act out the old story of a family looking for a place to stay. In Sweden, the darkest season is warmed by candles and sweet buns. Children dress in white and give coffee to their parents. In China, many cities hold lively markets, and young people exchange cards and share dinner together. In Australia, Christmas comes in the summer, so families go to the beach and eat outside under the sun. Even though the food, the songs, and the clothes are different, the feeling is the same. People want to be together, to give, and to wish each other well.",
+  "translation": "圣诞节是地球上最热闹的节日之一，但世界各地的人们庆祝它的方式却大不相同。在美国，家家户户竖起一棵绿色的树，在树枝上挂上小彩灯和星星。孩子们给圣诞老人留下饼干，第二天一早醒来寻找礼物。在墨西哥，人们在街头唱歌，夜里举着五颜六色的蜡烛。他们重现一个古老的故事：一家人在寻找可以落脚的地方。在瑞典，最黑暗的季节被蜡烛和甜面包温暖着。孩子们穿上白衣，把咖啡端给父母。在中国，许多城市举办热闹的集市，年轻人互相交换贺卡，一起吃晚饭。在澳大利亚，圣诞节正值夏天，所以一家人去海滩，在阳光下户外聚餐。虽然食物、歌曲和衣着各不相同，那种感觉却是一样的。人们想要聚在一起，想要付出，也想要彼此祝福。",
+  "words": [
+    {
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "pos": "n.",
+      "meaning": "节日；节庆",
+      "example": "The Spring Festival is my favorite festival."
+    },
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈselɪbreɪt/",
+      "pos": "v.",
+      "meaning": "庆祝；欢庆",
+      "example": "We celebrate her birthday every year."
+    },
+    {
+      "word": "hang",
+      "phonetic": "/hæŋ/",
+      "pos": "v.",
+      "meaning": "悬挂；吊",
+      "example": "Please hang the picture on the wall."
+    },
+    {
+      "word": "colorful",
+      "phonetic": "/ˈkʌləfl/",
+      "pos": "adj.",
+      "meaning": "五彩缤纷的",
+      "example": "The garden is full of colorful flowers."
+    },
+    {
+      "word": "candle",
+      "phonetic": "/ˈkændl/",
+      "pos": "n.",
+      "meaning": "蜡烛",
+      "example": "We lit a candle when the lights went out."
+    },
+    {
+      "word": "season",
+      "phonetic": "/ˈsiːzn/",
+      "pos": "n.",
+      "meaning": "季节",
+      "example": "Autumn is a cool season."
+    },
+    {
+      "word": "lively",
+      "phonetic": "/ˈlaɪvli/",
+      "pos": "adj.",
+      "meaning": "热闹的；活泼的",
+      "example": "The market is lively on Saturday mornings."
+    },
+    {
+      "word": "exchange",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "pos": "v.",
+      "meaning": "交换；互换",
+      "example": "We exchanged addresses after the trip."
+    }
+  ],
+  "dictationHints": [
+    "Christmas is one of the brightest ______ on Earth.",
+    "In Mexico, people sing in the streets and hold ______ candles at night.",
+    "In Australia, Christmas comes in the ______, so families go to the beach."
+  ]
+}

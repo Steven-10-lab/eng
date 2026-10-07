@@ -1,0 +1,73 @@
+{
+  "day": 24,
+  "title": "The Migration of Birds",
+  "titleCn": "鸟类的迁徙",
+  "source": "Nature and Science Essay",
+  "sourceCn": "自然与科学科普散文",
+  "level": "hard",
+  "text": "When the days grow short and the air turns cold, many birds prepare for a long journey. This journey is called migration. They fly south, where the winter is warm and food is easy to find. No one teaches them the way. The birds know it by instinct, as if a map were hidden in their hearts. Some birds fly only at night, using the stars as their guides. Others rest by day and feed in the fields before they continue. They cross wide rivers, high mountains, and even the great sea. Many birds become tired, and some lose their way. Yet the flocks keep moving, because spring will return to the north. When the warm air comes again, the birds fly back home. They build their nests, lay their eggs, and raise their young. Scientists have studied them for many years, but the birds still hold a quiet mystery inside their wings.",
+  "translation": "当白昼变短、空气变冷时，许多鸟儿开始为一场漫长的旅程做准备。这场旅程叫做迁徙。它们飞向南方，那里冬天温暖，食物也容易找到。没有人教它们路该怎么走。鸟儿凭着本能知道方向，仿佛有一张地图藏在它们心里。有些鸟只在夜里飞行，把星星当作向导。另一些鸟白天休息，在田野里吃饱后再继续赶路。它们飞越宽阔的河流、高耸的山脉，甚至辽阔的大海。许多鸟儿累坏了，有些还迷了路。然而鸟群依然不断前进，因为春天终将回到北方。当暖风再次吹来，鸟儿们就飞回家乡。它们筑巢、产卵、养育幼鸟。科学家们已经研究它们许多年了，可鸟儿的翅膀里依然藏着一个安静的谜。",
+  "words": [
+    {
+      "word": "journey",
+      "phonetic": "/ˈdʒɜːni/",
+      "pos": "n.",
+      "meaning": "旅程；旅行",
+      "example": "We had a long journey by train."
+    },
+    {
+      "word": "migration",
+      "phonetic": "/maɪˈɡreɪʃn/",
+      "pos": "n.",
+      "meaning": "迁徙；迁移",
+      "example": "The migration of birds happens every autumn."
+    },
+    {
+      "word": "instinct",
+      "phonetic": "/ˈɪnstɪŋkt/",
+      "pos": "n.",
+      "meaning": "本能；直觉",
+      "example": "Birds build nests by instinct."
+    },
+    {
+      "word": "guide",
+      "phonetic": "/ɡaɪd/",
+      "pos": "n.",
+      "meaning": "向导；指南",
+      "example": "The guide showed us around the mountain."
+    },
+    {
+      "word": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "pos": "v.",
+      "meaning": "继续；延续",
+      "example": "Please continue your story."
+    },
+    {
+      "word": "flock",
+      "phonetic": "/flɒk/",
+      "pos": "n.",
+      "meaning": "鸟群；兽群",
+      "example": "A flock of sheep crossed the road."
+    },
+    {
+      "word": "nest",
+      "phonetic": "/nest/",
+      "pos": "n.",
+      "meaning": "巢；窝",
+      "example": "The bird built a nest in the tree."
+    },
+    {
+      "word": "mystery",
+      "phonetic": "/ˈmɪstri/",
+      "pos": "n.",
+      "meaning": "谜；神秘事物",
+      "example": "The old house is full of mystery."
+    }
+  ],
+  "dictationHints": [
+    "When the days grow short and the air turns cold, many birds prepare for a long ______.",
+    "The birds know it by ______, as if a map were hidden in their hearts.",
+    "They build their ______, lay their eggs, and raise their young."
+  ]
+}

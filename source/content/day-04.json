@@ -1,0 +1,66 @@
+{
+  "day": 4,
+  "title": "How a Butterfly Grows",
+  "titleCn": "蝴蝶是怎么长大的",
+  "source": "Nature Science Essay (adapted)",
+  "sourceCn": "自然科普散文（改写）",
+  "level": "easy",
+  "text": "A butterfly starts life as a small egg. The mother lays the egg on a green leaf. After a few days, a tiny caterpillar comes out. The caterpillar is very hungry. It eats and eats the leaf, and grows bigger and bigger. Then it makes a hard shell around itself. We call this shell a cocoon. The caterpillar rests inside for a long time. Slowly, it changes inside. At last, the shell opens, and a beautiful butterfly comes out! It has colorful wings. It flies up to the warm sun. Every butterfly was once a caterpillar. Growth takes time and patience.",
+  "translation": "蝴蝶的一生从一颗小小的卵开始。蝴蝶妈妈把卵产在一片绿叶上。几天后，一只小小的毛毛虫钻了出来。毛毛虫非常饿，它吃啊吃叶子，长得越来越大。然后它在自己周围做了一个硬壳，我们把这个壳叫做茧。毛毛虫在里面休息很长时间，慢慢地在里面发生变化。终于，壳打开了，一只美丽的蝴蝶飞了出来！它长着五彩的翅膀，飞向温暖的太阳。每一只蝴蝶都曾经是一只毛毛虫。成长需要时间和耐心。",
+  "words": [
+    {
+      "word": "caterpillar",
+      "phonetic": "/ˈkætəpɪlər/",
+      "pos": "n.",
+      "meaning": "毛毛虫",
+      "example": "The caterpillar ate the green leaf."
+    },
+    {
+      "word": "lay",
+      "phonetic": "/leɪ/",
+      "pos": "v.",
+      "meaning": "产卵；放置",
+      "example": "The bird lays eggs in the nest."
+    },
+    {
+      "word": "cocoon",
+      "phonetic": "/kəˈkuːn/",
+      "pos": "n.",
+      "meaning": "茧",
+      "example": "The caterpillar slept inside the cocoon."
+    },
+    {
+      "word": "change",
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v.",
+      "meaning": "改变；变化",
+      "example": "Leaves change color in autumn."
+    },
+    {
+      "word": "wing",
+      "phonetic": "/wɪŋ/",
+      "pos": "n.",
+      "meaning": "翅膀",
+      "example": "The bird spread its wings and flew."
+    },
+    {
+      "word": "colorful",
+      "phonetic": "/ˈkʌləfl/",
+      "pos": "adj.",
+      "meaning": "多彩的；鲜艳的",
+      "example": "She wore a colorful dress."
+    },
+    {
+      "word": "patience",
+      "phonetic": "/ˈpeɪʃns/",
+      "pos": "n.",
+      "meaning": "耐心",
+      "example": "Learning English takes patience."
+    }
+  ],
+  "dictationHints": [
+    "The mother lays the egg on a green ______.",
+    "We call this hard shell a ______.",
+    "Growth takes time and ______."
+  ]
+}

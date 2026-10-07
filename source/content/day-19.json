@@ -1,0 +1,73 @@
+{
+  "day": 19,
+  "title": "Why the Sky Is Blue",
+  "titleCn": "天空为什么是蓝的",
+  "source": "Nature and Science Essay",
+  "sourceCn": "自然科普散文",
+  "level": "medium",
+  "text": "Look up on a clear day, and the sky is blue. But have you ever wondered why? Sunlight looks white, but it is really a mixture of many colours, from red to violet. When sunlight enters the air, it meets tiny molecules of oxygen and nitrogen. These molecules are much smaller than the light itself. They scatter the blue light in all directions, while the red and yellow light passes straight through. This is why we see blue everywhere above us. At sunset, the light travels through more air. Most of the blue light is scattered away before it reaches us, so we see red and orange colours in the sky. This simple science explains both the blue noon and the colourful evening sky. The next time you look up, remember the tiny molecules at work.",
+  "translation": "在晴朗的日子抬头看，天空是蓝色的。但你有没有想过这是为什么？阳光看起来是白色的，其实它是由许多颜色混合而成的，从红色一直到紫色。阳光进入空气时，会碰到氧气和氮气的微小分子。这些分子比光本身小得多。它们把蓝光散射到四面八方，而红光和黄光则径直穿过。这就是我们抬头看到的一切都是蓝色的原因。日落时，光线要穿过更厚的空气。大部分蓝光在到达我们之前就被散射掉了，所以我们看到的是天空中红色和橙色的光。这个简单的科学原理解释了正午的蓝天和傍晚五彩的天空。下次你抬头看时，请记住那些正在工作的微小分子。",
+  "words": [
+    {
+      "word": "sunlight",
+      "phonetic": "/ˈsʌnlaɪt/",
+      "pos": "n.",
+      "meaning": "阳光；日光",
+      "example": "The sunlight came through the window."
+    },
+    {
+      "word": "mixture",
+      "phonetic": "/ˈmɪkstʃər/",
+      "pos": "n.",
+      "meaning": "混合；混合物",
+      "example": "The cake is a mixture of flour, eggs, and milk."
+    },
+    {
+      "word": "violet",
+      "phonetic": "/ˈvaɪələt/",
+      "pos": "n.",
+      "meaning": "紫罗兰色；紫色",
+      "example": "The rainbow ends in violet."
+    },
+    {
+      "word": "molecule",
+      "phonetic": "/ˈmɒlɪkjuːl/",
+      "pos": "n.",
+      "meaning": "分子",
+      "example": "Water is made of tiny molecules."
+    },
+    {
+      "word": "oxygen",
+      "phonetic": "/ˈɒksɪdʒən/",
+      "pos": "n.",
+      "meaning": "氧气",
+      "example": "We need oxygen to breathe."
+    },
+    {
+      "word": "scatter",
+      "phonetic": "/ˈskætər/",
+      "pos": "v.",
+      "meaning": "散射；散开",
+      "example": "The wind scattered the leaves across the yard."
+    },
+    {
+      "word": "direction",
+      "phonetic": "/dəˈrekʃn/",
+      "pos": "n.",
+      "meaning": "方向；方位",
+      "example": "The birds flew in the same direction."
+    },
+    {
+      "word": "sunset",
+      "phonetic": "/ˈsʌnset/",
+      "pos": "n.",
+      "meaning": "日落；傍晚",
+      "example": "We watched the sunset over the sea."
+    }
+  ],
+  "dictationHints": [
+    "Sunlight is really a ______ of many colours.",
+    "They scatter the blue light in all ______.",
+    "At ______, the light travels through more air."
+  ]
+}

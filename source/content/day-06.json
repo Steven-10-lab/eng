@@ -1,0 +1,66 @@
+{
+  "day": 6,
+  "title": "The Boy Who Cried Wolf",
+  "titleCn": "狼来了",
+  "source": "Aesop's Fables (adapted)",
+  "sourceCn": "伊索寓言（改写）",
+  "level": "easy",
+  "text": "A boy looked after sheep on a hill. He felt bored and lonely. One day, he wanted some fun. He ran down the hill and shouted, \"Wolf! Wolf! The wolf is coming!\" The farmers ran up to help him. But there was no wolf. The boy laughed. The farmers were angry. A few days later, he did the same thing. Again, the farmers came, and again there was no wolf. Then one day, a real wolf came. The boy shouted loudly, but this time no one came. They thought he was lying again. The wolf took his sheep away. Lying makes people lose trust. Tell the truth, always.",
+  "translation": "一个男孩在山上放羊。他又无聊又孤单。一天，他想找点乐子。他跑下山大喊：\"狼来了！狼来了！\"农夫们跑上山来帮他，可是根本没有狼。男孩大笑起来。农夫们很生气。几天后，他又故技重施。农夫们再次跑上来，还是没有狼。后来有一天，一只真的狼来了。男孩大声呼喊，但这一次没有人来。他们以为他又在说谎。狼把他的羊叼走了。说谎会让人失去信任。永远要说真话。",
+  "words": [
+    {
+      "word": "sheep",
+      "phonetic": "/ʃiːp/",
+      "pos": "n.",
+      "meaning": "绵羊",
+      "example": "The sheep eat green grass."
+    },
+    {
+      "word": "bored",
+      "phonetic": "/bɔːd/",
+      "pos": "adj.",
+      "meaning": "无聊的",
+      "example": "I feel bored on rainy days."
+    },
+    {
+      "word": "shout",
+      "phonetic": "/ʃaʊt/",
+      "pos": "v.",
+      "meaning": "呼喊；喊叫",
+      "example": "Do not shout in the library."
+    },
+    {
+      "word": "wolf",
+      "phonetic": "/wʊlf/",
+      "pos": "n.",
+      "meaning": "狼",
+      "example": "The wolf lives in the forest."
+    },
+    {
+      "word": "lie",
+      "phonetic": "/laɪ/",
+      "pos": "v.",
+      "meaning": "说谎",
+      "example": "Never lie to your friends."
+    },
+    {
+      "word": "trust",
+      "phonetic": "/trʌst/",
+      "pos": "n.",
+      "meaning": "信任",
+      "example": "We have trust in our teacher."
+    },
+    {
+      "word": "truth",
+      "phonetic": "/truːθ/",
+      "pos": "n.",
+      "meaning": "真相；事实",
+      "example": "Please tell me the truth."
+    }
+  ],
+  "dictationHints": [
+    "A boy looked after sheep on a ______.",
+    "He ran down the hill and ______, Wolf! Wolf!",
+    "Lying makes people lose ______."
+  ]
+}

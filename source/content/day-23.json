@@ -1,0 +1,73 @@
+{
+  "day": 23,
+  "title": "Abraham Lincoln's Childhood",
+  "titleCn": "林肯的童年",
+  "source": "American History Story (adapted)",
+  "sourceCn": "美国历史故事（改写）",
+  "level": "hard",
+  "text": "Abraham Lincoln was born in a small wooden house in the forest. His family was very poor, and he went to school for less than one year. There were no books in his home, but young Abe loved learning. He borrowed books from neighbors and read them by the light of the fire at night. When he had no paper, he wrote on a piece of wood with a piece of charcoal. He grew tall and strong, and he split wood and worked on a farm. Yet his mind was always busy. He listened carefully to people who spoke, and he remembered every word. Later, he studied law by himself and became a lawyer. Then he became the sixteenth president of the United States. He never forgot his hard childhood. He said that all people should be free and equal. His story teaches us that where we begin does not decide where we end.",
+  "translation": "亚伯拉罕·林肯出生在森林里一间小小的木屋里。他的家里非常贫穷，他上学的时间加起来还不到一年。家里没有书，但小林肯热爱学习。他从邻居那里借来书，夜里就着炉火的光读书。没有纸的时候，他就用木炭在木板上写字。他长得又高又壮，劈柴、在农场里干活。但他的脑子从来没有停下。他认真听别人说话，记住每一个字。后来，他自学法律，成为了一名律师。再后来，他成为了美国第十六任总统。他从未忘记自己艰苦的童年。他说，所有的人都应该自由和平等。他的故事告诉我们：一个人从哪里开始，并不能决定他最终走向哪里。",
+  "words": [
+    {
+      "word": "wooden",
+      "phonetic": "/ˈwʊdn/",
+      "pos": "adj.",
+      "meaning": "木制的",
+      "example": "We sat on a wooden bench."
+    },
+    {
+      "word": "forest",
+      "phonetic": "/ˈfɒrɪst/",
+      "pos": "n.",
+      "meaning": "森林",
+      "example": "Many animals live in the forest."
+    },
+    {
+      "word": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "pos": "v.",
+      "meaning": "借入；借用",
+      "example": "May I borrow your pen?"
+    },
+    {
+      "word": "neighbor",
+      "phonetic": "/ˈneɪbə/",
+      "pos": "n.",
+      "meaning": "邻居",
+      "example": "Our neighbor has a cute dog."
+    },
+    {
+      "word": "charcoal",
+      "phonetic": "/ˈtʃɑːkəʊl/",
+      "pos": "n.",
+      "meaning": "木炭",
+      "example": "We cook food over charcoal."
+    },
+    {
+      "word": "split",
+      "phonetic": "/splɪt/",
+      "pos": "v.",
+      "meaning": "劈开；分开",
+      "example": "He split the apple into two halves."
+    },
+    {
+      "word": "equal",
+      "phonetic": "/ˈiːkwəl/",
+      "pos": "adj.",
+      "meaning": "平等的；相等的",
+      "example": "All people should be equal."
+    },
+    {
+      "word": "president",
+      "phonetic": "/ˈprezɪdənt/",
+      "pos": "n.",
+      "meaning": "总统；主席",
+      "example": "The president visited our city."
+    }
+  ],
+  "dictationHints": [
+    "Abraham Lincoln was born in a small ______ house in the forest.",
+    "He ______ books from neighbors and read them by the light of the fire at night.",
+    "He said that all people should be free and ______."
+  ]
+}

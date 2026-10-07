@@ -1,0 +1,66 @@
+{
+  "day": 10,
+  "title": "The Road Not Taken",
+  "titleCn": "未选择的路",
+  "source": "Robert Frost (adapted as prose)",
+  "sourceCn": "罗伯特·弗罗斯特诗歌（改写为散文）",
+  "level": "easy",
+  "text": "Two roads went into a yellow wood. A traveler stood at the crossing. He could take only one. He looked down the first road. It bent into the trees and was quiet. Then he looked at the second road. It was green and looked as nice. \"I will keep the first for another day,\" he thought. But he knew he could not go back. The roads are like our choices in life. Sometimes we cannot take both. We must choose one path. The traveler took the road less traveled, and that choice made all the difference. Choose your own road bravely.",
+  "translation": "两条小路伸进一片金黄的树林。一位旅人站在岔路口。他只能选一条。他望向第一条路，它弯进树林，安安静静。然后他看向第二条路，它绿意盎然，看起来同样美好。\"我把第一条路留到改天再走吧。\"他心想。但他知道自己无法回头。这两条路就像我们人生中的选择。有时候我们不能两条都走，我们必须选择一条路。旅人选择了那条更少人走过的路，而这个选择让一切都变得不同。勇敢地选择属于你自己的路吧。",
+  "words": [
+    {
+      "word": "wood",
+      "phonetic": "/wʊd/",
+      "pos": "n.",
+      "meaning": "树林；木头",
+      "example": "We took a walk in the wood."
+    },
+    {
+      "word": "traveler",
+      "phonetic": "/ˈtrævələr/",
+      "pos": "n.",
+      "meaning": "旅行者",
+      "example": "The traveler carried a small bag."
+    },
+    {
+      "word": "crossing",
+      "phonetic": "/ˈkrɒsɪŋ/",
+      "pos": "n.",
+      "meaning": "十字路口；交汇点",
+      "example": "Stop at the road crossing."
+    },
+    {
+      "word": "choice",
+      "phonetic": "/tʃɔɪs/",
+      "pos": "n.",
+      "meaning": "选择",
+      "example": "You can make your own choice."
+    },
+    {
+      "word": "path",
+      "phonetic": "/pɑːθ/",
+      "pos": "n.",
+      "meaning": "小路；路径",
+      "example": "The path goes up the hill."
+    },
+    {
+      "word": "difference",
+      "phonetic": "/ˈdɪfrəns/",
+      "pos": "n.",
+      "meaning": "不同；差别",
+      "example": "What is the difference between them?"
+    },
+    {
+      "word": "bravely",
+      "phonetic": "/ˈbreɪvli/",
+      "pos": "adv.",
+      "meaning": "勇敢地",
+      "example": "The boy faced the dog bravely."
+    }
+  ],
+  "dictationHints": [
+    "Two roads went into a yellow ______.",
+    "The roads are like our ______ in life.",
+    "We must choose one ______."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "day": 29,
+  "title": "The Nightingale",
+  "titleCn": "夜莺",
+  "source": "The Nightingale by Hans Christian Andersen (adapted)",
+  "sourceCn": "《夜莺》（安徒生，改写）",
+  "level": "hard",
+  "text": "In China, there once stood a magnificent palace, and in its garden lived a small nightingale. Travelers from many countries came to see the palace, but when they heard the bird sing, they forgot everything. \"She is worth more than all my jewels,\" said the emperor. One day, the emperor received a mechanical bird from a faraway land. It was covered with diamonds and sang the same song again and again. Everyone admired the shiny bird, and the real nightingale flew away to the forest. For a year, the mechanical bird sang every night. Then, one winter, something inside it broke, and the music stopped. Soon the emperor grew ill and lay pale and still. In the silence, the real nightingale returned. She sat outside his window and sang her sweetest song. Color came back to the emperor's face, and his breath grew warm. \"Thank you,\" he whispered. The best gifts, we learn, are not always the ones that shine the brightest.",
+  "translation": "从前，在中国有一座华丽的宫殿，宫殿的花园里住着一只小小的夜莺。来自许多国家的旅人前来参观宫殿，可当他们听到这只鸟唱歌时，却忘记了一切。\"她比我所有的珠宝都更珍贵。\"皇帝说。一天，皇帝从遥远的国度收到一只机械鸟。它浑身镶满钻石，一遍又一遍地唱着同一首歌。人人都赞美这只闪亮的鸟，真正的夜莺却飞回了森林。整整一年，机械鸟每晚都在歌唱。后来，一个冬天，它里面有什么东西坏了，歌声停了。不久，皇帝病倒了，脸色苍白地躺着，一动不动。在寂静中，真正的夜莺回来了。她坐在窗外，唱起了她最甜美的歌。皇帝的脸上重新有了血色，呼吸也变得温暖。\"谢谢你。\"他低声说。我们明白了：最好的礼物，并不总是那些最闪亮的。",
+  "words": [
+    {
+      "word": "magnificent",
+      "phonetic": "/mæɡˈnɪfɪsnt/",
+      "pos": "adj.",
+      "meaning": "华丽的；壮丽的",
+      "example": "We saw a magnificent palace."
+    },
+    {
+      "word": "nightingale",
+      "phonetic": "/ˈnaɪtɪŋɡeɪl/",
+      "pos": "n.",
+      "meaning": "夜莺",
+      "example": "The nightingale sings beautifully at night."
+    },
+    {
+      "word": "jewel",
+      "phonetic": "/ˈdʒuːəl/",
+      "pos": "n.",
+      "meaning": "宝石；珠宝",
+      "example": "She wore a crown of jewels."
+    },
+    {
+      "word": "emperor",
+      "phonetic": "/ˈempərə/",
+      "pos": "n.",
+      "meaning": "皇帝",
+      "example": "The emperor lived in a big palace."
+    },
+    {
+      "word": "mechanical",
+      "phonetic": "/məˈkænɪkl/",
+      "pos": "adj.",
+      "meaning": "机械的；机器驱动的",
+      "example": "My grandfather has a mechanical clock."
+    },
+    {
+      "word": "diamond",
+      "phonetic": "/ˈdaɪəmənd/",
+      "pos": "n.",
+      "meaning": "钻石；金刚石",
+      "example": "The ring has a small diamond."
+    },
+    {
+      "word": "admire",
+      "phonetic": "/ədˈmaɪə/",
+      "pos": "v.",
+      "meaning": "钦佩；欣赏",
+      "example": "I admire her hard work."
+    },
+    {
+      "word": "whisper",
+      "phonetic": "/ˈwɪspə/",
+      "pos": "v.",
+      "meaning": "低语；耳语",
+      "example": "She whispered a secret in my ear."
+    }
+  ],
+  "dictationHints": [
+    "In China, there once stood a ______ palace, and in its garden lived a small nightingale.",
+    "It was covered with ______ and sang the same song again and again.",
+    "\"Thank you,\" he ______."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "day": 15,
+  "title": "Little Red Riding Hood",
+  "titleCn": "小红帽",
+  "source": "Grimms' Fairy Tales (adapted)",
+  "sourceCn": "格林童话（改写）",
+  "level": "medium",
+  "text": "Once there was a little girl who wore a red hood every day. Her mother asked her to take a cake and some milk to her grandmother, who was sick. \"Do not leave the path,\" said her mother. In the forest, a big grey wolf met the girl. He was clever and hungry. He asked where she was going. She told him about her grandmother. The wolf ran quickly to the grandmother's house and ate the old woman. Then he put on her nightcap and waited in the bed. When the girl arrived, she said, \"Grandmother, what big ears you have!\" The wolf answered, \"All the better to hear you, my dear.\" A hunter passed by. He heard the wolf and saved the girl and her grandmother. The little girl learned a lesson: never talk to strangers in the forest.",
+  "translation": "从前有个小女孩，天天戴着一顶红色的兜帽。妈妈让她把一块蛋糕和一些牛奶送去给生病的奶奶。\"不要离开小路，\"妈妈叮嘱道。在森林里，一只大灰狼遇到了女孩。他又狡猾又饥饿，问她要去哪里。女孩告诉了他奶奶的事。狼飞快地跑到奶奶家，把老妇人吞进了肚子。然后他戴上奶奶的睡帽，躺在床上等着。女孩到了以后说：\"奶奶，您的耳朵真大呀！\"狼回答：\"这样才能更好地听你说话呀，亲爱的。\"一位猎人路过，听到了狼的声音，救下了女孩和她的奶奶。小女孩吸取了教训：永远不要在森林里和陌生人说话。",
+  "words": [
+    {
+      "word": "hood",
+      "phonetic": "/hʊd/",
+      "pos": "n.",
+      "meaning": "兜帽；头巾",
+      "example": "The girl pulled her hood up in the rain."
+    },
+    {
+      "word": "path",
+      "phonetic": "/pɑːθ/",
+      "pos": "n.",
+      "meaning": "小路；小径",
+      "example": "We walked along the path through the woods."
+    },
+    {
+      "word": "wolf",
+      "phonetic": "/wʊlf/",
+      "pos": "n.",
+      "meaning": "狼",
+      "example": "The wolf howled in the dark forest."
+    },
+    {
+      "word": "forest",
+      "phonetic": "/ˈfɒrɪst/",
+      "pos": "n.",
+      "meaning": "森林",
+      "example": "Many animals live in the forest."
+    },
+    {
+      "word": "nightcap",
+      "phonetic": "/ˈnaɪtkæp/",
+      "pos": "n.",
+      "meaning": "睡帽",
+      "example": "Grandma wore a soft nightcap to bed."
+    },
+    {
+      "word": "hunter",
+      "phonetic": "/ˈhʌntər/",
+      "pos": "n.",
+      "meaning": "猎人",
+      "example": "The hunter carried a bow and arrows."
+    },
+    {
+      "word": "stranger",
+      "phonetic": "/ˈstreɪndʒər/",
+      "pos": "n.",
+      "meaning": "陌生人",
+      "example": "Do not open the door to strangers."
+    }
+  ],
+  "dictationHints": [
+    "Her mother asked her to take a cake to her ______, who was sick.",
+    "\"Do not leave the ______,\" said her mother.",
+    "Never talk to ______ in the forest."
+  ]
+}

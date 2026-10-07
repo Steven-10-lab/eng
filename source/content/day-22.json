@@ -1,0 +1,73 @@
+{
+  "day": 22,
+  "title": "The Little Prince and the Rose",
+  "titleCn": "小王子和玫瑰",
+  "source": "The Little Prince by Antoine de Saint-Exupéry (adapted)",
+  "sourceCn": "《小王子》（圣埃克苏佩里，改写）",
+  "level": "hard",
+  "text": "Long ago, a little prince lived on a planet that was hardly bigger than a house. Every day he watered a single rose, and the rose was proud and delicate. One morning, the prince left his tiny planet and traveled across the stars. He met a king, a proud man, and at last a fox. The fox taught him a quiet secret, which he shared in simple words. \"You become responsible forever for what you have tamed,\" said the fox. \"You are responsible for your rose.\" The little prince did not fully understand, but he remembered the words. He had learned that a flower is not just a flower. She matters because he has spent time on her. He had cared for her, protected her from the wind, and listened to her small complaints. At last, he looked up at the sky and smiled. None of the stars would ever look the same again. His rose, far away, was waiting for him.",
+  "translation": "很久很久以前，一位小王子住在一颗几乎不比房子大的星球上。他每天都给一朵独一无二的玫瑰浇水，那朵玫瑰既骄傲又娇弱。一天早晨，小王子离开了他小小的星球，穿越群星。他遇见了一位国王，一个傲慢的人，最后遇见了一只狐狸。狐狸教给他一个安静的秘密，并用简单的话告诉他：\"你要永远对你驯服过的东西负责。\"狐狸说，\"你要对你的玫瑰负责。\"小王子并没有完全听懂，但他记住了这些话。他明白了，一朵花不只是一朵花。她之所以重要，是因为他在她身上花了时间。他照顾她，为她挡风，倾听她小小的抱怨。最后，他抬头望着天空，笑了。没有一颗星星会再和从前一样了。他那遥远的玫瑰，正在等着他。",
+  "words": [
+    {
+      "word": "planet",
+      "phonetic": "/ˈplænɪt/",
+      "pos": "n.",
+      "meaning": "行星",
+      "example": "The earth is our home planet."
+    },
+    {
+      "word": "delicate",
+      "phonetic": "/ˈdelɪkət/",
+      "pos": "adj.",
+      "meaning": "娇弱的；精致的",
+      "example": "The delicate flower broke in the wind."
+    },
+    {
+      "word": "travel",
+      "phonetic": "/ˈtrævl/",
+      "pos": "v.",
+      "meaning": "旅行；行进",
+      "example": "We will travel to Beijing next summer."
+    },
+    {
+      "word": "secret",
+      "phonetic": "/ˈsiːkrət/",
+      "pos": "n.",
+      "meaning": "秘密",
+      "example": "Can you keep a secret for me?"
+    },
+    {
+      "word": "responsible",
+      "phonetic": "/rɪˈspɒnsəbl/",
+      "pos": "adj.",
+      "meaning": "有责任的；负责的",
+      "example": "You are responsible for your own bag."
+    },
+    {
+      "word": "tame",
+      "phonetic": "/teɪm/",
+      "pos": "v.",
+      "meaning": "驯服；驯养",
+      "example": "It is hard to tame a wild horse."
+    },
+    {
+      "word": "protect",
+      "phonetic": "/prəˈtekt/",
+      "pos": "v.",
+      "meaning": "保护；防护",
+      "example": "Parents protect their children from danger."
+    },
+    {
+      "word": "complaint",
+      "phonetic": "/kəmˈpleɪnt/",
+      "pos": "n.",
+      "meaning": "抱怨；牢骚",
+      "example": "The boy made a complaint about the loud noise."
+    }
+  ],
+  "dictationHints": [
+    "Long ago, a little prince lived on a ______ that was hardly bigger than a house.",
+    "\"You become ______ forever for what you have tamed,\" said the fox.",
+    "He had cared for her, ______ her from the wind, and listened to her small complaints."
+  ]
+}

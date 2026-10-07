@@ -1,0 +1,465 @@
+/* =========================================================
+ * shadowing.css — 逐句跟读评分模块样式
+ * 全部 scoped 到 .sh-box，复用工程既有 :root 变量
+ * ========================================================= */
+
+.sh-box {
+  margin: 16px 0;
+  padding: 16px;
+  background: var(--bg-card, #fff);
+  border: 1px solid var(--border, #f0e4d8);
+  border-radius: var(--radius, 14px);
+  box-shadow: var(--shadow, 0 2px 12px rgba(232, 115, 74, .1));
+  font-family: var(--font-cn, -apple-system, sans-serif);
+}
+
+.sh-box .sh-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.sh-box .sh-head h3 {
+  font-size: 1.05rem;
+  color: var(--primary-dark, #c95a32);
+}
+.sh-box .sh-mini {
+  font-size: .78rem;
+  padding: 4px 10px;
+  border: 1px solid var(--border, #f0e4d8);
+  background: var(--bg-soft, #fff0e6);
+  color: var(--text-light, #8a7e72);
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+}
+
+.sh-box .sh-note {
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.sh-box .sh-warn {
+  font-size: .8rem;
+  color: var(--danger, #d04a4a);
+  background: #fdecec;
+  border: 1px solid #f5c6c6;
+  border-radius: var(--radius-sm, 8px);
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* 进度行 */
+.sh-box .sh-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.sh-box .sh-step {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  white-space: nowrap;
+}
+.sh-box .sh-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.sh-box .sh-bar-fill {
+  height: 100%;
+  width: 0;
+  background: var(--primary, #e8734a);
+  border-radius: 3px;
+  transition: width .3s;
+}
+.sh-box .sh-cur {
+  font-size: 1rem;
+  font-weight: 700;
+  min-width: 2.5em;
+  text-align: right;
+  color: var(--text-muted, #b8ada0);
+}
+.sh-box .sh-cur.ok  { color: var(--success, #5ba85b); }
+.sh-box .sh-cur.mid { color: var(--warning, #e8a84a); }
+.sh-box .sh-cur.bad { color: var(--danger, #d04a4a); }
+
+/* 等级文案色（句分/篇分共用） */
+.sh-box .sh-grade.g-a, .sh-box .sh-cur.g-a { color: var(--success, #5ba85b); }
+.sh-box .sh-grade.g-b, .sh-box .sh-cur.g-b { color: #4a90b8; }
+.sh-box .sh-grade.g-c, .sh-box .sh-cur.g-c { color: var(--warning, #e8a84a); }
+.sh-box .sh-grade.g-d, .sh-box .sh-cur.g-d { color: var(--danger, #d04a4a); }
+.sh-box .sh-grade.g-none, .sh-box .sh-cur.g-none { color: var(--text-muted, #b8ada0); }
+
+/* 句子显示 */
+.sh-box .sh-sentence {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: 1.15rem;
+  line-height: 1.9;
+  min-height: 3.6em;
+  padding: 10px 12px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  margin-bottom: 8px;
+}
+.sh-box .sh-w {
+  border-radius: 4px;
+  padding: 0 2px;
+}
+.sh-box .sh-w-correct { background: rgba(91, 168, 91, .18); }
+.sh-box .sh-w-wrong   { background: rgba(208, 74, 74, .18); text-decoration: underline wavy var(--danger, #d04a4a); }
+.sh-box .sh-w-missing { background: rgba(184, 173, 160, .25); color: var(--text-muted, #b8ada0); text-decoration: line-through; }
+.sh-box .sh-w-extra   { background: rgba(74, 144, 184, .18); color: var(--accent, #4a90b8); }
+.sh-box .sh-heard-word {
+  font-size: .65rem;
+  color: var(--danger, #d04a4a);
+  margin-left: 2px;
+  font-family: var(--font-cn, sans-serif);
+}
+
+.sh-box .sh-heard {
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 10px;
+  padding: 0 2px;
+}
+.sh-box .sh-heard b { color: var(--text, #3a322b); }
+
+/* 下一步提示（渐进披露：默认只看本次反馈 + 下一步） */
+.sh-box .sh-nextstep {
+  font-size: .85rem;
+  color: var(--primary-dark, #c95a32);
+  background: var(--bg-soft, #fff0e6);
+  border-left: 3px solid var(--primary, #e8734a);
+  border-radius: var(--radius-sm, 8px);
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* 按钮区 */
+.sh-box .sh-actions,
+.sh-box .sh-actions2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.sh-box .sh-btn {
+  flex: 1 1 auto;
+  min-width: 80px;
+  padding: 9px 10px;
+  font-size: .88rem;
+  border: 1px solid var(--border, #f0e4d8);
+  background: var(--bg-card, #fff);
+  color: var(--text, #3a322b);
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+}
+.sh-box .sh-btn.primary {
+  background: var(--primary, #e8734a);
+  border-color: var(--primary, #e8734a);
+  color: #fff;
+  font-weight: 600;
+}
+.sh-box .sh-btn.ghost {
+  background: transparent;
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+}
+.sh-box .sh-btn:active { transform: scale(.97); }
+
+/* 唯一主按钮：随 phase 切换文案，始终最醒目 */
+.sh-box .sh-btn.sh-main {
+  flex: 1.6 1 auto;
+  min-width: 130px;
+  padding: 12px 10px;
+  font-size: .95rem;
+}
+.sh-box .sh-btn.sh-main:disabled {
+  opacity: .6;
+  cursor: default;
+}
+/* demo / recognizing 阶段主按钮变成「停止」态 */
+.sh-box[data-phase="demo"]        .sh-btn.sh-main { background: var(--warning, #e8a84a); border-color: var(--warning, #e8a84a); }
+.sh-box[data-phase="recognizing"] .sh-btn.sh-main { background: var(--danger, #d04a4a); border-color: var(--danger, #d04a4a); animation: sh-pulse 1.2s infinite; }
+@keyframes sh-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(208, 74, 74, .35); }
+  50%      { box-shadow: 0 0 0 6px rgba(208, 74, 74, 0); }
+}
+
+/* 识别结果行：识别文本 + 对/错/漏/多计数（非音素说明） */
+.sh-box .sh-heard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  align-items: baseline;
+}
+.sh-box .sh-heard-text { color: var(--text, #3a322b); }
+.sh-box .sh-counts { font-size: .78rem; color: var(--text-light, #8a7e72); }
+.sh-box .sh-counts b { color: var(--text, #3a322b); }
+.sh-box .sh-counts i { font-style: normal; color: var(--text-muted, #b8ada0); }
+
+/* 降级模式：手动自评行 */
+.sh-box .sh-selfeval {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  background: #f3f7ec;
+  border: 1px dashed #bcd6a8;
+  border-radius: var(--radius-sm, 8px);
+}
+.sh-box .sh-selfeval-label { font-size: .85rem; color: var(--text, #3a322b); font-weight: 600; }
+.sh-box .sh-selfeval .sh-btn { flex: 0 1 auto; min-width: 0; font-size: .82rem; padding: 7px 10px; }
+
+.sh-box audio {
+  width: 100%;
+  margin: 6px 0 10px;
+}
+
+/* 整篇完成 */
+.sh-box .sh-passage {
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  text-align: center;
+}
+.sh-box .sh-passage-score {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--text, #3a322b);
+}
+.sh-box .sh-passage-score b {
+  font-size: 1.4rem;
+  color: var(--primary-dark, #c95a32);
+}
+.sh-box .sh-passage .sh-save:disabled {
+  opacity: .55;
+  cursor: default;
+  background: var(--text-light, #8a7e72);
+  border-color: var(--text-light, #8a7e72);
+}
+
+/* 历史（渐进披露：默认折叠，按钮展开） */
+.sh-box .sh-hist-toggle {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px;
+  font-size: .82rem;
+  color: var(--text-light, #8a7e72);
+  background: transparent;
+  border: 1px dashed var(--border, #f0e4d8);
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+}
+.sh-box .sh-history {
+  margin-top: 8px;
+  border-top: 1px dashed var(--border, #f0e4d8);
+  padding-top: 10px;
+}
+.sh-box .sh-history h4 {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 6px;
+}
+.sh-box .sh-hist-row {
+  display: flex;
+  gap: 18px;
+  font-size: .9rem;
+}
+.sh-box .sh-hist-row b { color: var(--primary-dark, #c95a32); }
+.sh-box .sh-hist-row b.ok  { color: var(--success, #5ba85b); }
+.sh-box .sh-hist-row b.bad { color: var(--danger, #d04a4a); }
+
+/* 按天历史：每天最近 20 次，可逐层展开到句分 */
+.sh-box .sh-hday {
+  border: 1px solid var(--border, #f0e4d8);
+  border-radius: var(--radius-sm, 8px);
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  background: var(--bg-soft, #fff0e6);
+}
+.sh-box .sh-hday summary {
+  cursor: pointer;
+  font-size: .88rem;
+  color: var(--text, #3a322b);
+  font-weight: 600;
+  list-style: none;
+}
+.sh-box .sh-hday summary::-webkit-details-marker { display: none; }
+.sh-box .sh-hday summary::before { content: '\25B8 '; color: var(--primary, #e8734a); }
+.sh-box .sh-hday details[open] > summary::before { content: '\25BE '; }
+.sh-box .sh-hattempts { padding: 6px 0 2px 14px; }
+.sh-box .sh-hattempts details { margin-bottom: 4px; }
+.sh-box .sh-hattempts summary {
+  cursor: pointer;
+  font-size: .82rem;
+  font-weight: 400;
+  color: var(--text-light, #8a7e72);
+  list-style: none;
+}
+.sh-box .sh-hattempts summary::-webkit-details-marker { display: none; }
+.sh-box .sh-hattempts summary::before { content: '\2013 '; color: var(--text-muted, #b8ada0); }
+.sh-box .sh-hsents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  padding: 4px 0 6px 14px;
+  font-size: .78rem;
+  color: var(--text-light, #8a7e72);
+}
+.sh-box .sh-hsent i { font-style: normal; color: var(--text-muted, #b8ada0); margin-left: 3px; }
+
+.sh-box, .sh-box button, .td-mode-switch, .td-mode-switch button { font-family: var(--font-cn); }
+
+/* ---------- 可见状态条（P0：每步短文案 + 计时） ---------- */
+.sh-box .sh-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--bg-soft, #fff0e6);
+  border: 1px solid var(--border, #f0e4d8);
+  font-size: .82rem;
+  color: var(--text-light, #6b5d50);
+}
+.sh-box .sh-status-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--primary, #e8734a);
+  flex: 0 0 auto;
+  animation: sh-pulse 1.2s ease-in-out infinite;
+}
+.sh-box .sh-status-step { flex: 1 1 auto; }
+.sh-box .sh-status-time {
+  flex: 0 0 auto;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--primary-dark, #c95a32);
+  min-width: 3.2em;
+  text-align: right;
+}
+@keyframes sh-pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+.sh-box[data-phase="recognizing"] .sh-status {
+  border-color: var(--primary, #e8734a);
+  background: #ffe9dd;
+}
+
+/* =========================================================
+ * P0 反馈精简：默认只四层
+ *  1) 大分数 + 等级（明确「朗读文本准确度」）
+ *  2) 一行 对/错/漏/多 计数
+ *  3) 仅问题词清单（错词/漏词/多读词，连续相同合并 ×N）
+ *  4) 一句下一步建议
+ * 原句只显示一次（纯文本，不逐个铺正确词）；
+ * 完整识别文本仅在默认折叠的「查看识别详情」details 中。
+ * ========================================================= */
+
+/* Layer 1：大分数卡 */
+.sh-box .sh-feedback { margin-bottom: 10px; }
+.sh-box .sh-scorecard {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding: 10px 14px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  margin-bottom: 8px;
+}
+.sh-box .sh-score-label {
+  flex: 1 1 100%;
+  font-size: .76rem;
+  color: var(--text-light, #8a7e72);
+  letter-spacing: .02em;
+}
+.sh-box .sh-score-num {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.sh-box .sh-score-grade {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Layer 2：一行计数 */
+.sh-box .sh-countline {
+  font-size: .85rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 8px;
+}
+.sh-box .sh-countline b { color: var(--text, #3a322b); font-weight: 700; }
+
+/* Layer 3：仅问题词清单（不铺正确词） */
+.sh-box .sh-problems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.sh-box .sh-prob {
+  font-size: .82rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #fdecec;
+  border: 1px solid #f5c6c6;
+  color: #a13a3a;
+}
+.sh-box .sh-prob-missing {
+  background: #f4efe3; border-color: #ddd2bd; color: #7a6a4a;
+}
+.sh-box .sh-prob-extra {
+  background: #e9f1f7; border-color: #c3d8e6; color: #3a6a8a;
+}
+
+/* 原句：只显示一次，纯文本（不再逐词铺色） */
+.sh-box .sh-sentence {
+  font-family: var(--font-en, Georgia, serif);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  min-height: 0;
+}
+
+/* 详情：完整识别文本，默认折叠 */
+.sh-box .sh-detail {
+  font-size: .8rem;
+  color: var(--text-light, #8a7e72);
+  margin-bottom: 8px;
+}
+.sh-box .sh-detail summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px dashed var(--border, #f0e4d8);
+  border-radius: 999px;
+  color: var(--text-light, #8a7e72);
+}
+.sh-box .sh-detail summary::-webkit-details-marker { display: none; }
+.sh-box .sh-detail-text {
+  margin-top: 6px;
+  padding: 8px 10px;
+  background: var(--bg-soft, #fff0e6);
+  border-radius: var(--radius-sm, 8px);
+  line-height: 1.6;
+  color: var(--text, #3a322b);
+  word-break: break-word;
+}
+
+/* Layer 4：全对一句式 */
+.sh-box .sh-nextstep.sh-allgood {
+  color: var(--success, #5ba85b);
+  background: #eef7ee;
+  border-left-color: var(--success, #5ba85b);
+}

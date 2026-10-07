@@ -1,0 +1,73 @@
+{
+  "day": 26,
+  "title": "The Lion and the Mouse",
+  "titleCn": "狮子和老鼠",
+  "source": "Aesop's Fables (adapted)",
+  "sourceCn": "伊索寓言（改写）",
+  "level": "hard",
+  "text": "A lion lay sleeping in the forest. A little mouse ran across his paw by accident, and the lion woke up. He caught the mouse in his huge claws. The mouse trembled and begged for her life. \"Please let me go,\" she said. \"One day, I may help you, even though I am small.\" The lion smiled. How could a tiny mouse ever help a strong lion? Yet he felt kind, and he let her go. Some weeks later, the lion was caught in a net, which hunters had hidden in the trees. He pulled and roared, but the net held him tight. The little mouse heard his cries. She ran to him and began to bite the ropes with her sharp teeth. Bit by bit, she broke the net. At last, the lion was free. From that day on, the great lion and the small mouse were friends. The story tells us that no one is too small to be useful, and kindness is never wasted.",
+  "translation": "一只狮子正躺在森林里睡觉。一只小老鼠不小心跑过他的爪子，狮子醒了过来。他用巨大的爪子抓住了老鼠。老鼠颤抖着，恳求饶命。\"请放了我吧，\"她说，\"总有一天，我会帮助你的，虽然我很小。\"狮子笑了。一只小小的老鼠怎么可能帮得了强壮的狮子呢？但他心软了，把她放了。几周以后，狮子被一张网缠住了，那是猎人藏在树林里的。他又拉又吼，可网紧紧地把他困住。小老鼠听到了他的叫声。她跑过去，开始用锋利的牙齿咬绳子。一点一点，她咬破了网。狮子终于自由了。从那天起，大狮子和小老鼠成了朋友。这个故事告诉我们：没有人小到派不上用场，而善良永远不会白费。",
+  "words": [
+    {
+      "word": "paw",
+      "phonetic": "/pɔː/",
+      "pos": "n.",
+      "meaning": "爪子",
+      "example": "The cat put a paw on my hand."
+    },
+    {
+      "word": "claw",
+      "phonetic": "/klɔː/",
+      "pos": "n.",
+      "meaning": "（动物的）爪",
+      "example": "The eagle has strong claws."
+    },
+    {
+      "word": "tremble",
+      "phonetic": "/ˈtrembl/",
+      "pos": "v.",
+      "meaning": "颤抖；发抖",
+      "example": "The cold boy trembled in the wind."
+    },
+    {
+      "word": "beg",
+      "phonetic": "/beɡ/",
+      "pos": "v.",
+      "meaning": "恳求；乞求",
+      "example": "He begged me not to leave."
+    },
+    {
+      "word": "net",
+      "phonetic": "/net/",
+      "pos": "n.",
+      "meaning": "网；网状物",
+      "example": "The fisherman pulled in his net."
+    },
+    {
+      "word": "roar",
+      "phonetic": "/rɔː/",
+      "pos": "v.",
+      "meaning": "吼叫；咆哮",
+      "example": "The lion roared in the forest."
+    },
+    {
+      "word": "rope",
+      "phonetic": "/rəʊp/",
+      "pos": "n.",
+      "meaning": "绳子；绳索",
+      "example": "They tied the boat with a thick rope."
+    },
+    {
+      "word": "sharp",
+      "phonetic": "/ʃɑːp/",
+      "pos": "adj.",
+      "meaning": "锋利的；尖的",
+      "example": "Be careful, the knife is very sharp."
+    }
+  ],
+  "dictationHints": [
+    "A little mouse ran across his paw by ______, and the lion woke up.",
+    "The mouse trembled and ______ for her life.",
+    "She ran to him and began to bite the ______ with her sharp teeth."
+  ]
+}
