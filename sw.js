@@ -1,4 +1,4 @@
-const CACHE_NAME = 'english30-v13';
+const CACHE_NAME = 'english30-v13.1';
 const ASSETS = ["./index.html",
   "./source/app.js",
   "./source/assessments.js",

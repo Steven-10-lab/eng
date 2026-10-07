@@ -57,11 +57,11 @@ eq('empty hyp -> 0', C.scoreSentence('hello world', ''), 0);
   eq('apostrophe-normalize equal (100)', r.score, 100);
 }
 
-console.log('# scorePassage 加权');
-eq('weighted avg (350/4=87.5->88)', C.scorePassage([100, 50], ['a b c', 'd']), 88);
+console.log('# scorePassage 各句等权平均');
+eq('sentence avg ((100+50)/2=75)', C.scorePassage([100, 50], ['a b c', 'd']), 75);
 {
   const p = C.scorePassage([100, 50], ['a b c', 'd']);
-  console.log('       weighted [100 over 3w, 50 over 1w] = ' + p);
+  console.log('       sentence-average [100, 50] = ' + p);
 }
 
 /* =========================================================

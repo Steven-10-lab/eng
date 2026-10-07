@@ -19,7 +19,7 @@
 (function () {
   'use strict';
 
-  var APP_BUILD = 'english30-v13';
+  var APP_BUILD = 'english30-v13.1';
   window.APP_BUILD = APP_BUILD;
 
   // 设置-关于 版本展示

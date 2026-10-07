@@ -20,7 +20,7 @@
   'use strict';
 
   /* 版本标识：发布时同步 +1。用于核对线上静态响应是否为最新代码。 */
-  var VERSION = '2.2.0-p0-resultmap';
+  var VERSION = '2.2.1-retry-fresh-result';
 
   /* ================= 纯函数核心（Node 可测） ================= */
 
@@ -221,21 +221,19 @@
   }
 
   /**
-   * 整篇加权：按目标词数加权平均
+   * 整篇总分：取所有已完成句子的句分算术平均值
    * @param {number[]} scores    每句得分（0-100），null 表示未测
-   * @param {string[]} sentences 原始句子文本
+   * @param {string[]} sentences 保留参数以兼容既有调用
    */
   function scorePassage(scores, sentences) {
-    var wSum = 0, sSum = 0;
-    for (var i = 0; i < sentences.length; i++) {
+    var scoreSum = 0, count = 0;
+    for (var i = 0; i < scores.length; i++) {
       if (scores[i] == null) continue;
-      var w = normalizeText(sentences[i]).length;
-      if (w <= 0) w = 1;
-      sSum += scores[i] * w;
-      wSum += w;
+      scoreSum += scores[i];
+      count++;
     }
-    if (wSum === 0) return 0;
-    return Math.round(sSum / wSum);
+    if (count === 0) return 0;
+    return Math.round(scoreSum / count);
   }
 
   /* ---------- 以下为本轮新增：状态机 / 等级 / 按天历史 / 守卫（Node 可测） ---------- */
@@ -977,10 +975,14 @@
   ShadowingBox.prototype.startDemo = function () {
     if (this.phase !== 'idle') return; // 防重复启动
     if (!this.sentences.length) return;
-    this.sentenceAttempts[this.idx] = (this.sentenceAttempts[this.idx] || 0) + 1;
+    var attemptIdx = this.idx;
+    this.sentenceAttempts[attemptIdx] = (this.sentenceAttempts[attemptIdx] || 0) + 1;
+    // 重新跟读一开始就清除本句旧评分/错漏标注，避免识别期间继续展示上次结果。
+    this.scores[attemptIdx] = null;
+    if (this.els.passage) this.els.passage.classList.add('hidden');
     // 新一次尝试的 token：后续迟到事件据此隔离
     this.attempt = {
-      idx: this.idx, token: ++this._tokSeq,
+      idx: attemptIdx, token: ++this._tokSeq,
       settled: false, leaving: false, timedOut: false,
       startTs: Date.now(), interimText: '', finalText: '',
       resultMap: {},   // 每会话清空：按 result index 维护，替换不追加
@@ -1145,7 +1147,9 @@
     this.rec = null;
 
     if (decision === 'score') {
-      var ref = this.sentences[this.idx];
+      // 始终按本次 attempt 创建时绑定的句子结算，避免迟到回调写入当前 UI 的其他句子。
+      var scoreIdx = att.idx;
+      var ref = this.sentences[scoreIdx];
       // P0：防御性异常判定——连续重复片段 / 词数 > 标准 2 倍 → 本次不计分。
       // 不做粗暴 Set 去重，合法重复词仍走正常 WER。
       var hypWords = normalizeText(text);
@@ -1165,7 +1169,7 @@
       }
       var res = alignWords(ref, text); // WER 口径保持
       res.hyp = text;
-      this.scores[this.idx] = res;
+      this.scores[scoreIdx] = res;
 
       var wrongWords = [];
       res.ops.forEach(function (op) { if (op.status === 'wrong' || op.status === 'missing') wrongWords.push(op.ref); });
@@ -1300,7 +1304,8 @@
     var att = this.attempt || {};
     var p = {
       day: this.dayInfo.day, module: 'shadowing', timestamp: Date.now(),
-      sentenceIdx: this.idx, ref: this.sentences[this.idx] || '',
+      sentenceIdx: att.idx != null ? att.idx : this.idx,
+      ref: this.sentences[att.idx != null ? att.idx : this.idx] || '',
       durationMs: att.startTs ? Math.max(0, Date.now() - att.startTs) : 0
     };
     Object.keys(extra || {}).forEach(function (k) { p[k] = extra[k]; });

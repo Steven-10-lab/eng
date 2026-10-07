@@ -32,11 +32,11 @@ check('parent-dashboard.js 只读读取 eng30_final_unlocked（未 removeItem）
 check('setFinalUnlocked 使用 Eng30Storage', app.includes('Eng30Storage.set(ASSESS_STORAGE.unlocked'));
 
 console.log('\n[3] PWA sw.js 版本与清理');
-const sw = read('sw.js');
-check('CACHE_NAME = english30-v13', /CACHE_NAME\s*=\s*'english30-v13'/.test(sw));
-check('ASSETS 包含 update.js', sw.includes("./update.js"));
-check('ASSETS 包含 tts-controller.js', sw.includes("./tts-controller.js"));
-check('ASSETS 包含 tts-controller.css', sw.includes("./tts-controller.css"));
+const sw = fs.readFileSync(path.join(__dirname, '..', 'sw.js'), 'utf8');
+check('CACHE_NAME = english30-v13.1', /CACHE_NAME\s*=\s*'english30-v13\.1'/.test(sw));
+check('ASSETS 包含 update.js', sw.includes("./source/update.js"));
+check('ASSETS 包含 tts-controller.js', sw.includes("./source/tts-controller.js"));
+check('ASSETS 包含 tts-controller.css', sw.includes("./source/tts-controller.css"));
 check('activate 清除其他 english30-* 缓存', sw.includes("startsWith('english30-')"));
 check('activate 调用 clients.claim()', sw.includes('self.clients.claim()'));
 // install 块内不得有真正的 skipWaiting() 调用（注释中的提及不算）
@@ -46,7 +46,7 @@ check('监听 SKIP_WAITING message', sw.includes("'SKIP_WAITING'") && sw.include
 
 console.log('\n[4] update.js 更新提示与版本');
 const upd = read('update.js');
-check('暴露 window.APP_BUILD', upd.includes("var APP_BUILD = 'english30-v13'") && upd.includes('window.APP_BUILD = APP_BUILD;'));
+check('暴露 window.APP_BUILD', upd.includes("var APP_BUILD = 'english30-v13.1'") && upd.includes('window.APP_BUILD = APP_BUILD;'));
 check('显示"发现更新，点击刷新"', upd.includes('发现更新，点击刷新'));
 check('监听 controllerchange', upd.includes("addEventListener('controllerchange'"));
 check('监听 updatefound', upd.includes("addEventListener('updatefound'"));
@@ -56,8 +56,8 @@ check('postMessage SKIP_WAITING', upd.includes("postMessage({ type: 'SKIP_WAITIN
 
 console.log('\n[5] index.html 版本标识可查询');
 const html = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
-check('head 有 meta data-build', /<meta name="data-build" content="english30-v13">/.test(html));
-check('关于区 #app-version 显示 v12', html.includes('当前版本 english30-v13'));
+check('head 有 meta data-build', /<meta name="data-build" content="english30-v13\.1">/.test(html));
+check('关于区 #app-version 显示 v13.1', html.includes('当前版本 english30-v13.1'));
 check('关于区有 #app-version', html.includes('id="app-version"'));
 check('引入 update.js', html.includes('src="source/update.js"'));
 
